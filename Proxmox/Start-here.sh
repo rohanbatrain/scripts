@@ -26,3 +26,8 @@ cd /root
 # Fetching proxmox dot files
 rm .xinitrc
 wget https://raw.githubusercontent.com/rohanbatrain/dot-files/main/proxmox/.xinitrc
+
+# Configuring appimages
+mkdir Applications
+cd Applications
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.1.16/Obsidian-1.1.16.AppImage
