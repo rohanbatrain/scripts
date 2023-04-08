@@ -13,6 +13,6 @@ systemctl --user enable pulseaudio.service
 adduser rohan
 usermod -aG sudo rohan
 cd /home/rohan
-wget https://raw.githubusercontent.com/rohanbatrain/post-install-scripts/main/Proxmox/Part-2.sh
+wget https://raw.githubusercontent.com/rohanbatrain/post-install-scripts/main/Proxmox/Step-2.sh
 chmod +x Part-2.sh
 su rohan -c bash Part-2.sh
