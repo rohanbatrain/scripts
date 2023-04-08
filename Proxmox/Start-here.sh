@@ -13,7 +13,6 @@ systemctl --user enable pulseaudio.service
 adduser rohan
 usermod -aG sudo rohan
 cd /home/rohan
-#git clone here
+##HERE
 chmod +x Part-2.sh
-cp Part-2.sh /home/rohan
 su rohan
