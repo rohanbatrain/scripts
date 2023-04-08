@@ -24,3 +24,5 @@ for i in * ; do cd $i ; make clean install ; cd .. ; done
 cd /root
 
 # Fetching proxmox dot files
+rm .xinitrc
+wget https://raw.githubusercontent.com/rohanbatrain/dot-files/main/proxmox/.xinitrc
