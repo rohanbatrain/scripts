@@ -1,12 +1,19 @@
 #!/bin/bash
 
 # Fetching aptitude packages
-apt install make gcc libx11-dev libxft-dev libxinerama-dev xorg
+apt install sudo make gcc libx11-dev libxft-dev libxinerama-dev xorg firefox-esr pulseaudio pavucontrol
+
+# trying audio
+systemctl --user enable pulseaudio.service
+pulseaudio --start
+
 
 # Making a new user
 adduser rohan 
 usermod -aG sudo rohan
 su rohan
+
+
 
 # Making a build directory
 mkdir /home/rohan/Builds
