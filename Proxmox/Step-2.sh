@@ -24,8 +24,18 @@ wget https://raw.githubusercontent.com/rohanbatrain/dot-files/main/proxmox/.xini
 
 
 # Configuring appimages
-mkdir Applications
+mkdir -p Applications
 cd Applications
-wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.1.16/Obsidian-1.1.16.AppImage
-wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-lite-2.2.0-travis995-0f91801-x86_64.AppImage
+
+## Obsidian
+if ! [ -f /home/rohan/Applications/Obsidian-1.1.16.AppImage ]; then
+           wget -P /home/rohan/Applications/ "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.1.16/Obsidian-1.1.16.AppImage"
+fi
+
+## Appimagelauncher
+if ! [ -f /home/rohan/Applications/appimagelauncher-lite-2.2.0.AppImage ]; then
+           wget -P /home/rohan/Applications/ "https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-lite-2.2.0-travis995-0f91801-x86_64.AppImage" -O /home/rohan/Applications/appimagelauncher-lite-2.2.0.AppImage
+fi
+
+
 chmod +x *.AppImage
