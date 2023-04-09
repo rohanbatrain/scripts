@@ -16,9 +16,12 @@ git clone https://github.com/rohanbatrain/suckless-dwm.git
 # Building them at once
 for i in * ; do cd $i ; sudo make install ; cd .. ; done
 
+cd ..
+
 # Fetching proxmox dot files
 rm .xinitrc
 wget https://raw.githubusercontent.com/rohanbatrain/dot-files/main/proxmox/.xinitrc
+
 
 # Configuring appimages
 mkdir Applications
