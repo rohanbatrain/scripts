@@ -17,5 +17,6 @@ elif [$choice == "N"]; then
 else
   echo "Unknown input, ungraceful exit"
   exit
+fi
 
 cfdisk $drive_name
