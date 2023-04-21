@@ -1,6 +1,7 @@
 #!/bin/bash
 lsblk
-read -p "Please enter the drive name" drive_name
+
+read -p "Please enter the drive name: " drive_name
 echo "You have to make 5 partitions, which are as follows"
 echo "Partition-1 /dev/sda1 512M BOOT"
 echo "Partition-2 /dev/sda2 31G SWAP"
