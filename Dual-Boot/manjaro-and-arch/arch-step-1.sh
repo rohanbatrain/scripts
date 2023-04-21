@@ -7,7 +7,7 @@ echo "Partition-2 /dev/sda2 31G SWAP"
 echo "Partition-3 /dev/sda3 100G ARCH ROOT"
 echo "Partition-4 /dev/sda4 100G MANJARO (ALL FILES IN ONE PART)"
 echo "Partition-5 /dev/sda5 700G HOME DIRECTORY"
-read -p "Are the instructions clear? Y/N" choice_1
+read -p "Are the instructions clear? Y/N: " choice_1
 
 if [$choice == "Y"]; then
   continue
