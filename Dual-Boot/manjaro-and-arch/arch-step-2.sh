@@ -2,7 +2,7 @@
 
 # Pacman optimisations
 sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 5/g' /etc/pacman.conf
-yes | pacman -Syy reflector rsync curl wget xorg networkmanager
+yes | pacman -Syy reflector rsync curl wget xorg networkmanager 
 reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # Continue
@@ -18,6 +18,7 @@ echo "::1		localhost" >> /etc/hosts
 echo "127.0.1.1	rohanbatra" >> /etc/hosts
 echo "Please set your root password"
 passwd
+echo "Please set your user password"
 useradd -m rohan
 passwd rohan
 EDITOR=vim
