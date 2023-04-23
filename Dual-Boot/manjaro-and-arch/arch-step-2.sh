@@ -26,3 +26,7 @@ passwd rohan
 EDITOR=vim
 systemctl enable NetworkManager.service
 
+# directory mounting
+mkdir /mnt/rohan
+
+# for i in $(blkid|grep sda4); do echo $i "/mnt/rohan ext4 defaults 0 1" ; done | grep -w UUID | sed "s/\"//g" >> /etc/fstab 
