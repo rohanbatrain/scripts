@@ -18,8 +18,11 @@ echo "::1		localhost" >> /etc/hosts
 echo "127.0.1.1	rohanbatra" >> /etc/hosts
 echo "Please set your root password"
 passwd
-echo "Please set your user password"
 useradd -m rohan
+usermod -aG wheel rohan
+#usermod -aG sudo rohan
+echo "Please set your user password"
 passwd rohan
 EDITOR=vim
 systemctl enable NetworkManager.service
+
