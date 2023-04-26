@@ -2,7 +2,7 @@
 
 # Pacman optimisations
 sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 5/g' /etc/pacman.conf
-yes | pacman -Syy --noconfirm reflector rsync curl wget xorg networkmanager 
+yes | pacman --noconfirm -Syyu reflector rsync curl wget xorg networkmanager 
 reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # Continue
