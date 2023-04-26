@@ -31,6 +31,13 @@ vim /etc/sudoers
 
 # directory mounting
 mkdir /mnt/rohan
+mkdir /mnt/rohan/arch
+mkdir /mnt/rohan/manjaro
+mkdir /mnt/rohan/universal
+
+# universal will have those folders which would be same in every distro like, Documents etc. and some dirs like git repos etc. etc.
+
+
 
 # appending home to arch
 for i in $(blkid|grep sda4); do echo $1 /mnt/rohan ext4 defaults 0 1 ; done | grep -w UUID | sed "s/\"//g" > new
@@ -39,6 +46,5 @@ for i in $(blkid|grep sda4); do echo $1 /mnt/rohan ext4 defaults 0 1 ; done | gr
 cat new >> /etc/fstab
 
 # links
-rm -r /home/rohan
 ln -sf 
 
