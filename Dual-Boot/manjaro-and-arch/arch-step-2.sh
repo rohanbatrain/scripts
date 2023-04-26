@@ -30,7 +30,9 @@ systemctl enable NetworkManager.service
 mkdir /mnt/rohan
 
 # appending home fir to arch
-for i in $(blkid|grep sda4); do echo $1 /mnt/rohan ext4 defaults 0 1 ; done | grep -w UUID | sed "s/\"//g" >> /etc/fstab 
+for i in $(blkid|grep sda4); do echo $1 /mnt/rohan ext4 defaults 0 1 ; done | grep -w UUID | sed "s/\"//g" > new
+
+
 
 
 
