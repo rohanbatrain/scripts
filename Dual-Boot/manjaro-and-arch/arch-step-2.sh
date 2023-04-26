@@ -37,6 +37,12 @@ mkdir /mnt/rohan/universal
 
 # universal will have those folders which would be same in every distro like, Documents etc. and some dirs like git repos etc. etc.
 
+# making directories in universal dir
+
+mkdir /mnt/rohan/universal/git-repos
+
+## copying all git then symlinking them to use them is the best way to keep them updated. 
+
 
 
 # appending home to arch
