@@ -48,3 +48,11 @@ reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorli
 # Installing arch
 yes | pacstrap /mnt/arch base linux linux-firmware vim
 genfstab -U /mnt/arch >> /mnt/arch/etc/fstab
+
+
+# copying part-2 of the script to root of arch 
+cp ./arch-step-2.sh /mnt/arch/root
+
+
+
+
