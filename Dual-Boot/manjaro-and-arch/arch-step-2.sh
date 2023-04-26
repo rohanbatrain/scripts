@@ -31,13 +31,11 @@ vim /etc/sudoers
 
 # directory mounting
 mkdir /mnt/rohan
-mkdir /mnt/rohan/universal
-mkdir /mnt/rohan/universal/git-repos
+mkdir /mnt/rohan/git-repos
 
 
-# universal will have those folders which would be same in every distro like, Documents etc. and some dirs like git repos etc. etc. all dot files should linked using symlinks from /universal/git-repos
+# All dot files should linked using symlinks from /git-repos
  
-
 
 
 # appending home to arch
