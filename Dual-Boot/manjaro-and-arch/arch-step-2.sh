@@ -2,7 +2,7 @@
 
 # Pacman optimisations
 sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 5/g' /etc/pacman.conf
-pacman -Syyu reflector rsync curl wget xorg networkmanager 
+pacman -Syyu reflector rsync curl wget xorg networkmanager sudo vim
 reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # Continue
@@ -20,11 +20,14 @@ echo "Please set your root password"
 passwd
 useradd -m rohan
 usermod -aG wheel rohan
-#usermod -aG sudo rohan
 echo "Please set your user password"
 passwd rohan
 EDITOR=vim
 systemctl enable NetworkManager.service
+
+# editing sudo
+vim /etc/sudoers
+
 
 # directory mounting
 mkdir /mnt/rohan
@@ -35,5 +38,7 @@ for i in $(blkid|grep sda4); do echo $1 /mnt/rohan ext4 defaults 0 1 ; done | gr
 # appending it to fstab
 cat new >> /etc/fstab
 
-
+# links
+rm -r /home/rohan
+ln -sf 
 
