@@ -54,6 +54,6 @@ genfstab -U /mnt/arch >> /mnt/arch/etc/fstab
 cp ./arch-step-2.sh /mnt/arch/root
 
 # chrooting
-arch-chroot /mnt/arch/arch-step.sh 
+arch-chroot /mnt/arch/arch-step-2.sh 
 
 
