@@ -47,10 +47,3 @@ for i in $(blkid|grep sda4); do echo $1 /mnt/rohan ext4 defaults 0 1 ; done | gr
 
 # appending it to fstab
 cat new >> /etc/fstab
-
-
-
-
-# links
-ln -sf 
-
