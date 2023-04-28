@@ -33,11 +33,7 @@ vim /etc/sudoers
 
 # directory mounting
 mkdir /mnt/rohan
-mkdir /mnt/rohan/git-repos
-
-
-# All dot files should linked using symlinks from /git-repos
- 
+mkdir /mnt/rohan/git-repos # All dot files should linked using symlinks from this directory.
 
 
 # appending home to arch
@@ -47,12 +43,11 @@ for i in $(blkid|grep sda4); do echo $1 /mnt/rohan ext4 defaults 0 1 ; done | gr
 cat new >> /etc/fstab
 
 # fetching GitHub repos
-
 cd /mnt/rohan/git-repos
-git clone https://gitHub.com/rohanbatrain/dot-files
-
-
-
+git clone https://github.com/rohanbatrain/dot-files.git
+git clone https://github.com/rohanbatrain/suckless-dwm.git
+git clone https://github.com/rohanbatrain/suckless-dmenu.git
+git clone 
 
 # links
 ln -sf 
