@@ -47,7 +47,7 @@ cd /mnt/rohan/git-repos
 git clone https://github.com/rohanbatrain/dot-files.git
 git clone https://github.com/rohanbatrain/suckless-dwm.git
 git clone https://github.com/rohanbatrain/suckless-dmenu.git
-git clone 
+git clone https://github.com/rohanbatrain/suckless-st.git
 
 # links
 ln -sf 
