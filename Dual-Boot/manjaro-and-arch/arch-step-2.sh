@@ -27,6 +27,11 @@ passwd rohan
 EDITOR=vim
 systemctl enable NetworkManager.service
 
+# setting up sshd
+systemctl enable sshd
+systemctl start sshd
+
+
 # editing sudo
 vim /etc/sudoers
 
