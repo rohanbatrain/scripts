@@ -2,7 +2,9 @@
 
 # Pacman optimisations
 sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 5/g' /etc/pacman.conf
-pacman -Syyu reflector rsync curl wget xorg networkmanager sudo vim git
+
+pacman -Syyu reflector rsync curl wget xorg networkmanager sudo vim git keepassxc github-cli 
+
 reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # Continue
@@ -48,6 +50,8 @@ cat new >> /etc/fstab
 
 cd /mnt/rohan/git-repos
 git clone https://gitHub.com/rohanbatrain/dot-files
+
+
 
 
 # links
