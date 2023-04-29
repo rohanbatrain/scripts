@@ -10,3 +10,7 @@ git clone https://github.com/rohanbatrain/dot-files.git
 git clone https://github.com/rohanbatrain/suckless-dwm.git
 git clone https://github.com/rohanbatrain/suckless-dmenu.git
 git clone https://github.com/rohanbatrain/suckless-st.git
+
+# compiling
+
+for i in suckless-* ; do cd $i ; sudo make clean install ; cd .. ; done 
