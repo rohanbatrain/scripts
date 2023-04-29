@@ -3,7 +3,7 @@
 # Pacman optimisations
 sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 5/g' /etc/pacman.conf
 
-pacman -Syyu reflector rsync curl wget xorg networkmanager sudo vim git keepassxc openssh github-cli libx11 libxft libxinerama gcc
+pacman -Syyu reflector rsync curl wget xorg networkmanager sudo vim git keepassxc openssh github-cli libx11 libxft libxinerama gcc pkg-config
 
 reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
