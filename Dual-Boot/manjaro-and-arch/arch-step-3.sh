@@ -17,4 +17,4 @@ for i in suckless-* ; do cd $i ; sudo make clean install ; cd .. ; done
 
 # links
 
-ln -sf /mnt/rohan/git-repos/dot-files/arch/.xinitrc /home/rohan
+ln -sf /mnt/rohan/git-repos/dot-files/arch/.xinitrc /home/rohan/.xinitrc
