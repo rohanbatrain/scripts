@@ -14,3 +14,7 @@ git clone https://github.com/rohanbatrain/suckless-st.git
 # compiling
 
 for i in suckless-* ; do cd $i ; sudo make clean install ; cd .. ; done 
+
+# links
+
+ln -sf /mnt/rohan/git-repos/dot-files/arch/.xinitrc /home/rohan
