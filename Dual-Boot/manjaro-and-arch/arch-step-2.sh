@@ -8,7 +8,9 @@ pacman -Syyu reflector rsync curl wget xorg networkmanager sudo vim git keepassx
 reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # Continue
-timedatectl set-timezone Asia/Kolkata
+# timedatectl set-timezone Asia/Kolkata
+ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+
 sed -i 's/#en_IN/en_IN/' /etc/locale.gen
 locale-gen
 echo LANG=en_IN.UTF-8 > /etc/locale.conf
