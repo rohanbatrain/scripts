@@ -11,6 +11,8 @@ reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorli
 # timedatectl set-timezone Asia/Kolkata
 ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 
+hwclock --systohc
+
 sed -i 's/#en_IN/en_IN/' /etc/locale.gen
 locale-gen
 echo LANG=en_IN.UTF-8 > /etc/locale.conf
