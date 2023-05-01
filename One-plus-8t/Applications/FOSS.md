@@ -5,6 +5,6 @@
 4. [Aria2App](https://f-droid.org/en/packages/com.gianlu.aria2app/)
 5. [Spotube](https://f-droid.org/en/packages/oss.krtirtho.spotube/)
 6. [Aurora-Store](https://f-droid.org/en/packages/com.aurora.store/)
-  1. [Brave]
+
 
 
