@@ -8,5 +8,12 @@ so first install this, load lineageOs boot.img then patch it, flash it. Then ope
 
 # Magisk Modules
 
-1. [Bootloop-Saver](https://download.magiskzip.com/download/magisk-bootloop-saver/)
+There are two choices in magisk module installer:
+
+1. Basic module installation (basic module functionality)
+2. Patched Boot image (requires all modules to be reflashed if rom upgraded etc.) 
+
+The option above will be used to indicate how each module below is installed.
+
+1. [Bootloop-Saver](https://download.magiskzip.com/download/magisk-bootloop-saver/) = 2
 2. 
