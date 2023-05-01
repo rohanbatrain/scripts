@@ -3,7 +3,7 @@
 2. [Bitwarden](https://mobileapp.bitwarden.com/fdroid/)
 3. [Termux](https://f-droid.org/en/packages/com.termux/)
 4. [Aria2App](https://f-droid.org/en/packages/com.gianlu.aria2app/)
-
+5. [Spotube](https://f-droid.org/en/packages/oss.krtirtho.spotube/)
 
 
 
