@@ -13,7 +13,7 @@
 2. [Aria2App](https://f-droid.org/en/packages/com.gianlu.aria2app/)
 
 ## Media and Entertainment 
-1. [Spotube](https://f-droid.org/en/packages/oss.krtirtho.spotube/)
+1. [Blackhole](https://f-droid.org/en/packages/com.shadow.blackhole/)
 2. [VLC](https://f-droid.org/en/packages/org.videolan.vlc/)
 
 ## Hall of Fame
