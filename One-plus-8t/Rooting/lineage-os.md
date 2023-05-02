@@ -1,3 +1,3 @@
-url -> https://wiki.lineageos.org/devices/kebab/install
+# Installation
 
-I forgot to install Gapps, so factory reseting if safetynet doesn't work just in case.
+url -> https://wiki.lineageos.org/devices/kebab/install
