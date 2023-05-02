@@ -19,4 +19,6 @@
 ## Hall of Fame
 1. [Termux](https://f-droid.org/en/packages/com.termux/)
 
+## Education
 
+1. [Ankidroid](https://f-droid.org/en/packages/com.ichi2.anki/)
