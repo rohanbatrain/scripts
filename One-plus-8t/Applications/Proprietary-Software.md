@@ -12,6 +12,7 @@
 1. TapTap 
   * Battlegrounds Mobile India
   * Pubg New State 
+  * Miriam Escape
 
 ## Social Networks 
 
