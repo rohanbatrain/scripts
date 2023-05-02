@@ -6,6 +6,7 @@
 5. [Spotube](https://f-droid.org/en/packages/oss.krtirtho.spotube/)
 6. [Aurora-Store](https://f-droid.org/en/packages/com.aurora.store/)
 7. [Firefox-ARM64](https://ftp.mozilla.org/pub/fenix/)
+8. [VLC](https://f-droid.org/en/packages/org.videolan.vlc/)
 
 
 
