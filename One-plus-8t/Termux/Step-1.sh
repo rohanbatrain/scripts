@@ -18,6 +18,12 @@ termux-setup-storage
 # Obsidian Specific
 mkdir -p /sdcard/Obsidian/Second-Brain/
 
+# setting up ftp and ssh
+sv-enable ftpd # it will run on port 8021
+sshd # it will run on port 8022
+passwd # simple but secure password which has to be used on ssh (recommended to use key pair)
+
+
 # generating gpg keys
 gpg --full-generate-key # RSA-and-RSA, 4096, 0, ## Email: Github private email from setting should be used to generate gpg, 
 gpg --list-secret-keys --keyid-format=long
