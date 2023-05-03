@@ -6,8 +6,14 @@
 
 ---
 
-## Obsidian
+## Obsidian Mobile
 
 ### Plugins
 
-1. 
+1. Dataview
+2. DB Folder
+3. 
+
+### Appearance 
+
+Theme: Blue Topaz
