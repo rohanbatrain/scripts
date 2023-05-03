@@ -7,3 +7,4 @@
 5. Twitter
 6. Whatsapp
 7. Telegram
+8. DeviantArt
