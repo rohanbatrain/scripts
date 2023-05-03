@@ -1,6 +1,6 @@
 # Developement Setup
 
-This repository holds my dev setup configuration. It is laid out in form of a journal to document as i go through my setup changes.
+This repository holds my dev setup configuration. It is laid out in form of a journal to document all of which i go through during my setup on a daily basis.
 
 ## Dell Latitude E6420 
 
