@@ -10,9 +10,9 @@ This was the refurbished laptop my mom got me back in 2018-ish and it worked fin
 
 This is the device i borrowed from one of my senior to root and learn android developement, and eventually have some fun as my own Samsung F62 got stolen.
 
-## HP pavilion x360 Convertible 
+## Guest Device
 
-This is the device i am currently using to push changes to the repo. Borrowed from my neighbour for a few days. 
+This is the device i would be using to push changes in case of a complete tech failure on my end, It has a dedicated section because the device has to be returned to its owner in the same state as it was when arrived, which means all the config changes should be reverted back to the initials as they were. That is the reason I have separate space for this in my developement setup.
 
 
 # Developement Specific 
