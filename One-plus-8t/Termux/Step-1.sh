@@ -31,3 +31,4 @@ cd ~/.ssh/
 ssh-keygen -t rsa -C $GIT_EMAIL 
 git config --global user.signingkey $GPG_PRIMARY_KEY_ID
 git config --global user.signingkey "$GPG_SUB_KEY_ID\!"
+git config --global commit.gpgsign true
