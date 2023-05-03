@@ -1,0 +1,3 @@
+# Laptop dead
+
+I switched to UEFI mode to install windows in my ancient hardware and its been a decade since i switched my BIOS to UEFI from legacy and moment i did that and went to boot windows, there comes the driver issue of our faulty Operating system by Microsoft, so i wasn't able to install windows on my GPT drive. Moving on i hard rebooted a few times to save time and brrrrr goes the fan. Dell basic troubleshooting indicated error codes and when cleared the CMOS got to know that memory was giving me some errors. Removed the dimms and trying to boot so after few days of troubleshooting i finally got progress the error code changed to processor died and the day was today. So yeah i borrowed my neighbour laptop for a few days lets see what we can do. 
