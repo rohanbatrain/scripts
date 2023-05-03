@@ -1,6 +1,6 @@
-# Disclaimer
+# Note of Disclosure:
 
-I am a student and cannot afford to purchase apps right now. I am very well aware of potential risk of malware, spyware etc. But all i am doing is for educational purposes only. I am learning software first and then will definitely buy them when i would be able to afford them. Please be adviced.
+As a student, I am currently unable to procure software applications due to financial constraints. While acknowledging the potential risks associated with malware, spyware, and other harmful software, I am solely engaging in educational activities. My intention is to acquire knowledge about software before eventually acquiring them through lawful means. Kindly take note of this.
 
 1. [BUSYBOX-PRO](https://www.revdl.com/busybox-pro-android.html/)
   - While installing busy box on oneplus 2nd option /system/bin should be used rather than xbin.
