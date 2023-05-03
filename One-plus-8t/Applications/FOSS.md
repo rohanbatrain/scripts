@@ -21,5 +21,7 @@
 1. [Termux](https://f-droid.org/en/packages/com.termux/)
 
 ## Education
-
 1. [Ankidroid](https://f-droid.org/en/packages/com.ichi2.anki/)
+
+## Utilities
+1. [Data Monitor](https://f-droid.org/en/packages/com.drnoob.datamonitor/)
