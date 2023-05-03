@@ -8,7 +8,7 @@ read GIT_EMAIL
 apt update && apt upgrade
 
 # saying yes to all conflicts (install the package maintainer's version)
-pkg install openssh tsu git gnupg
+pkg install openssh tsu git gnupg iproute2
 
 # Storage Access
 termux-setup-storage
@@ -17,7 +17,6 @@ termux-setup-storage
 mkdir -p /sdcard/Obsidian/Second-Brain/
 
 
-############################ CODE AFTER THIS LINE IS NOT TESTED AND MAY NOT WORK ###############################
 # generating gpg keys
 gpg --full-generate-key # RSA-and-RSA, 4096, 0, ## Email: Github private email from setting should be used to generate gpg, 
 gpg --list-secret-keys --keyid-format=long
