@@ -16,6 +16,8 @@ termux-setup-storage
 # Obsidian Specific
 mkdir -p /sdcard/Obsidian/Second-Brain/
 
+
+############################ CODE AFTER THIS LINE IS NOT TESTED AND MAY NOT WORK ###############################
 # generating gpg keys
 gpg --full-generate-key # RSA-and-RSA, 4096, 0, ## Email: Github private email from setting should be used to generate gpg, 
 gpg --list-secret-keys --keyid-format=long
