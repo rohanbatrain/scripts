@@ -2,4 +2,11 @@
 
 1. Zoho Mail
 2. Adobe scan
-3. Obsidian
+3. [Obsidian](https://github.com/rohanbatrain/Developement-Setup/edit/main/One-plus-8t/Applications/Proprietary-Softwares/Productivity.md#obsidian)
+
+
+## Obsidian
+
+### Plugins
+
+1. 
