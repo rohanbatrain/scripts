@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Prerequisitie: You need to copy your id_rsa and id_rsa.pub to termux at ~/.ssh/ from -> (bitwarden in my case)
+# Prerequisitie: You need to copy your id_rsa and id_rsa.pub to termux at ~/.ssh/ from -> (bitwarden in my case) , You can use material file and navigate to /data/data/com.termux/files/home/.ssh and paste the keys there. 
 
 # Setting up environment variables
 echo "Please enter your Github Email Address"
