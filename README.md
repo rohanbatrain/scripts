@@ -4,7 +4,7 @@ This repository holds my dev setup configuration. It is laid out in form of a jo
 
 ## Dell Latitude E6420 
 
-This was the refurbished laptop my mom got me back in 2018-ish and it worked fine till May 1st 2023, it is not posting. It broke down in middle of my git setup, So yeah Farewell my friend! 
+This was the refurbished laptop my mom got me back in 2018-ish and it worked fine till May 1st 2023, it is not undergoing any sign of POST (power on self test). It broke down in middle of my git setup, So yeah Farewell my friend! 
 
 ## One-Plus-8T 
 
