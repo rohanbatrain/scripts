@@ -11,3 +11,8 @@ I thought it simple too but it seems microsoft doesn't want windows users to get
 5. Follow the traditional download route
 
 And you're done :)
+
+## Creating a VM in Virtual Box
+
+It is straight forward so i leave that on you. Try goint with unattended installation, it saves a lot of time. 
+
