@@ -12,9 +12,10 @@
 
 # Password Manager 
 
-1. Firefox
+1. Bitwarden
 
 
 # Utilities
 
 1. Putty
+2. KDE Connect
