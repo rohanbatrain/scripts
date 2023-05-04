@@ -2,7 +2,7 @@
 
 Getting the windows iso: Sounds simple right? 
 
-I thought it simple too but it seems microsoft doesn't want windows user to get the same simplicity as linux user when it comes to availiability of their own iso, so to get iso directly without media creation tools here are the steps to follow.
+I thought it simple too but it seems microsoft doesn't want windows users to get the same simplicity as linux user when it comes to availiability of their own iso, so to get iso directly without media creation tools here are the steps to follow.
 
 1. Go to brave and open up win10 download page
 2. open developers option and click on 3 dots
