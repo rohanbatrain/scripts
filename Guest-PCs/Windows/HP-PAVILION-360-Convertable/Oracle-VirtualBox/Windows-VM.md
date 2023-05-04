@@ -1,6 +1,6 @@
 # Configuration
 
-Getting the windows iso: Sounds simple right? 
+## Getting the windows iso: Sounds simple right? 
 
 I thought it simple too but it seems microsoft doesn't want windows users to get the same simplicity as linux user when it comes to availiability of their own iso, so to get iso directly without media creation tools here are the steps to follow.
 
