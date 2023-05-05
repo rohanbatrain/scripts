@@ -24,18 +24,19 @@ sshd # it will run on port 8022
 passwd # simple but secure password which has to be used on ssh (recommended to use key pair)
 
 
-# generating gpg keys
-gpg --full-generate-key # RSA-and-RSA, 4096, 0, ## Email: Github private email from setting should be used to generate gpg, 
-gpg --list-secret-keys --keyid-format=long
-## reading GPG-Key ID from stdout
-echo "Please copy and paste the GPG primary key ID that you want to use"
-read GPG_PRIMARY_KEY_ID
-echo "Please copy and paste the GPG sub key id that you want to use"
-read GPG_SUB_KEY_ID
-gpg --armor --export  $GPG_PRIMARY_KEY_ID
+# # generating gpg keys
+# gpg --full-generate-key # RSA-and-RSA, 4096, 0, ## Email: Github private email from setting should be used to generate gpg, 
+# gpg --list-secret-keys --keyid-format=long
+# ## reading GPG-Key ID from stdout
+# echo "Please copy and paste the GPG primary key ID that you want to use"
+# read GPG_PRIMARY_KEY_ID
+# echo "Please copy and paste the GPG sub key id that you want to use"
+# read GPG_SUB_KEY_ID
+# gpg --armor --export  $GPG_PRIMARY_KEY_ID
+# git config --global user.signingkey $GPG_PRIMARY_KEY_ID
+# git config --global user.signingkey "$GPG_SUB_KEY_ID\!"
+# git config --global commit.gpgsign true
+
 
 # Setting up git
 cd ~/.ssh/
-git config --global user.signingkey $GPG_PRIMARY_KEY_ID
-git config --global user.signingkey "$GPG_SUB_KEY_ID\!"
-git config --global commit.gpgsign true
