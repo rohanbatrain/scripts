@@ -14,7 +14,7 @@ pkg install openssh tsu git gnupg iproute2 busybox termux-services
 termux-setup-storage
 
 # Obsidian Specific
-mkdir -p /sdcard/Obsidian/Second-Brain/
+mkdir -p /sdcard/Obsidian/
 
 # setting up ftp and ssh
 sv-enable ftpd # it will run on port 8021, sv status, sv up, sv down are few cmds to note.
@@ -42,4 +42,8 @@ git config --global user.email "116573125+rohanbatrain@users.noreply.github.com"
 git config --global gpg.format ssh
 git config --global commit.gpgsign true
 
-# Setting github as remote origin
+# Setting github as remote origins for each repo
+## Second-Brain Private Repo
+cd /sdcard/Obsidian/
+git clone git@github.com:rohanbatrain/Second-Brain-Private.git
+
