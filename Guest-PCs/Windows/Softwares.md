@@ -10,7 +10,7 @@
 2. Brave
 
 
-# Password Manager 
+# Security Management 
 
 1. Bitwarden
 
