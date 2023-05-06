@@ -47,3 +47,10 @@ git config --global commit.gpgsign true
 cd /sdcard/Obsidian/
 git clone git@github.com:rohanbatrain/Second-Brain-Private.git
 
+## Dot files
+cd /sdcard/Github/Repositories/
+git clone git@github.com:rohanbatrain/Dot-Files.git
+cd /sdcard/Github/Repositories/Dot-Files/Universal/Obsidian/Mobile/
+
+# Symlinking
+## There is an issue with android fs which doesn't enable us to link on /sdcard, see [here](https://github.com/termux/termux-app/issues/513)
