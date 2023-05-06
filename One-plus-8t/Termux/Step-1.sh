@@ -49,5 +49,5 @@ cd /data/data/com.termux/files/home
 mkdir -p Github/Repositories
 git clone git@github.com:rohanbatrain/Dot_Files.git /data/data/com.termux/files/home/Github/Repositories/Dot_Files/
 mkdir -p /sdcard/Obsidian/Second-Brain-Private/
-ln -s /sdcard/Obsidian/Second-Brain-Private/ /data/data/com.termux/files/home/Repositories/Second-Brain-Private
+ln -s /sdcard/Obsidian/Second-Brain-Private/ /data/data/com.termux/files/home/Github/Repositories/.
 git clone git@github.com:rohanbatrain/Second-Brain-Private.git /data/data/com.termux/files/home/Github/Repositories/Second-Brain-Private/
