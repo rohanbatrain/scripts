@@ -44,28 +44,27 @@ git config --global commit.gpgsign true
 ssh -T git@github.com
 
 # Cloning github repositories
-
-git clone git@github.com:rohanbatrain/Second-Brain-Private.git
+cd /sdcard
+mkdir -p Github/Repositories 
+cd Github/Repositories
+git clone git@github.com:rohanbatrain/Second-Brain-Private.git 
 git clone git@github.com:rohanbatrain/Dot-Files.git
 
-# Symlinking 
-## There's no possibility of symlinking on Android/0/ directory but we can reverse link them as a workaround. 
-mkdir -p /data/data/com.termux/files/home/github/repositories
-cd /data/data/com.termux/files/home/github/repositories
-ln -s ~/storage/shared/Obsidian/Second-Brain-Private .
-
-### In this way we are storing files on internal sdcard but still able to link them elsewhere, 
-### As storing links is prohibited not creating links from them.
-### I want to do it because i just don't want to give root access to every single app that needs these files. 
-### Like text editors for github editing and so on. By storing them on sdcard (internal storage),
-### Android automatically give apps access with normal user priviledges.
+# Obsidian Vault
+cd /sdcard 
+mkdir Obsidian
+git clone git@github.com:rohanbatrain/Second-Brain-Private.git
 
 
 
-
-
-
-
+# Symblinking
+cd ~ && mkdir repositories && cd repositories 
+## This for loop below is because i have to merge two of my github repos, which is not possible without symlinking or unionfs,
+## both of which doesn't work on internal storage directory of termux.
+## Why not other directory than internal? It's because i don't want my android apps to be given root access everytime i need these files,
+## obsidian even doesn't officially recommend symlinks so root access probably expose to security issues.
+mkdir obsidian && cd obsidian 
+ln -s /sdcard/Obsidian/Second-Brain-Private/ .
 
 
 
