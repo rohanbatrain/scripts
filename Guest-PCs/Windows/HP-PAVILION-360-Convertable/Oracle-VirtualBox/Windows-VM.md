@@ -13,4 +13,6 @@ I thought it simple too but it seems microsoft doesn't want windows users to get
 And you're done :)
 
 
+## Windows VM 
 
+Unfortunately due to 8GB of ram, windows in a vm along with host running is in unusable state. So i think i would leave running VM of windows 10 in this guest PC. 
