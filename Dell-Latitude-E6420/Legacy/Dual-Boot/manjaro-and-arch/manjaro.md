@@ -1,1 +1,3 @@
-Laptop died before installing manjaro. RIP DELL , F to pay respect 
+# Manjaro
+
+Install manjaro on partition 3 as usual, be sure to install a bootloader. You have successfully installed arch + manjaro on your system in a dual boot manner.
