@@ -41,16 +41,32 @@ git config --global user.name "Rohan Batra"
 git config --global user.email "116573125+rohanbatrain@users.noreply.github.com"
 git config --global gpg.format ssh
 git config --global commit.gpgsign true
+ssh -T git@github.com
 
-# Setting github as remote origins for each repo
-## Second-Brain Private Repo
-cd /sdcard/Obsidian/
+# Cloning github repositories
+
 git clone git@github.com:rohanbatrain/Second-Brain-Private.git
-
-## Dot files
-cd /sdcard/Github/Repositories/
 git clone git@github.com:rohanbatrain/Dot-Files.git
-cd /sdcard/Github/Repositories/Dot-Files/Universal/Obsidian/Mobile/
 
-# Symlinking
-## There is an issue with android fs which doesn't enable us to link on /sdcard, see [here](https://github.com/termux/termux-app/issues/513)
+# Symlinking 
+## There's no possibility of symlinking on Android/0/ directory but we can reverse link them as a workaround. 
+mkdir -p /data/data/com.termux/files/home/github/repositories
+cd /data/data/com.termux/files/home/github/repositories
+ln -s ~/storage/shared/Obsidian/Second-Brain-Private .
+
+### In this way we are storing files on internal sdcard but still able to link them elsewhere, 
+### As storing links is prohibited not creating links from them.
+### I want to do it because i just don't want to give root access to every single app that needs these files. 
+### Like text editors for github editing and so on. By storing them on sdcard (internal storage),
+### Android automatically give apps access with normal user priviledges.
+
+
+
+
+
+
+
+
+
+
+
