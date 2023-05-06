@@ -43,31 +43,4 @@ git config --global gpg.format ssh
 git config --global commit.gpgsign true
 ssh -T git@github.com
 
-# Cloning github repositories
-cd /sdcard
-mkdir -p Github/Repositories 
-cd Github/Repositories
-git clone git@github.com:rohanbatrain/Second-Brain-Private.git 
-git clone git@github.com:rohanbatrain/Dot_Files.git 
 
-# Obsidian Vault
-cd /sdcard 
-mkdir Obsidian
-git clone git@github.com:rohanbatrain/Second-Brain-Private.git
-
-
-
-# Symblinking
-cd /data/data/com.termux/files/home/ && mkdir repositories && cd repositories 
-## This for loop below is because i have to merge two of my github repos, which is not possible without symlinking or unionfs,
-## both of which doesn't work on internal storage directory of termux.
-## Why not other directory than internal? It's because i don't want my android apps to be given root access everytime i need these files,
-## obsidian even doesn't officially recommend symlinks so root access probably expose to security issues.
-mkdir obsidian && cd obsidian 
-ln -s /sdcard/Obsidian/Second-Brain-Private/ .
-ln -s /sdcard/Github/Repositories/Dot_Files/ .
-
-## Linking obsidian mobile config from dot files
-cd /data/data/com.termux/files/home/obsidian/Second-Brain-Private/
-ln -s /data/data/com.termux/files/home/repositories/Dot_Files/Universal/Obsidian/Mobile/Second-Brain-Private/.obsidian/ .
-# Symlinking doesnt work
