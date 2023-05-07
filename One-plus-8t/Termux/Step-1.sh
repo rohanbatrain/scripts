@@ -51,3 +51,7 @@ git clone git@github.com:rohanbatrain/Dot_Files.git /data/data/com.termux/files/
 mkdir -p /sdcard/Obsidian/Second-Brain-Private/
 ln -s /sdcard/Obsidian/Second-Brain-Private/ /data/data/com.termux/files/home/Github/Repositories/.
 git clone git@github.com:rohanbatrain/Second-Brain-Private.git /data/data/com.termux/files/home/Github/Repositories/Second-Brain-Private/
+
+# fetching obsidian mobile config from repository
+## Planned but not ready to fetch right now. More on theat here -> https://github.com/rohanbatrain/obsidian-mobile
+
