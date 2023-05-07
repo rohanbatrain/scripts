@@ -52,6 +52,3 @@ mkdir -p /sdcard/Obsidian/Second-Brain-Private/
 ln -s /sdcard/Obsidian/Second-Brain-Private/ /data/data/com.termux/files/home/Github/Repositories/.
 git clone --recurse-submodules git@github.com:rohanbatrain/Second-Brain-Private.git /data/data/com.termux/files/home/Github/Repositories/Second-Brain-Private/
 
-# fetching obsidian mobile config from repository
-## Planned but not ready to fetch right now. More on theat here -> https://github.com/rohanbatrain/obsidian-configs
-# git submodule add git@github.com:rohanbatrain/.obsidian ## Needs to be executed once, as it already stores config on github
