@@ -54,4 +54,5 @@ git clone git@github.com:rohanbatrain/Second-Brain-Private.git /data/data/com.te
 
 # fetching obsidian mobile config from repository
 ## Planned but not ready to fetch right now. More on theat here -> https://github.com/rohanbatrain/obsidian-configs
-
+cd /data/data/com.termux/files/home/Github/Repositories/Second-Brain-Private/
+git submodule add git@github.com:rohanbatrain/.obsidian
