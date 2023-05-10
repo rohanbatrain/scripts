@@ -8,7 +8,8 @@
 4. Rebooted 
 
 # Setup
-
+1. google sign in -> using my google youtube creator gmail account (@rohanbatrainn) to login
+2. 
 
 # Magisk 
 > Same as lineage, additional steps:
