@@ -17,3 +17,4 @@
 1. Hide magisk app - renamed to Rohan
 2. enabled zygisk, added systemless hosts, enabled enforce deny list
 3. reboot
+4. Added Google play services, google play store to denylist, successfully passed Safety net.
