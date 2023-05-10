@@ -1,23 +1,9 @@
 # Productivity
 
 1. Zoho Mail
-2. Adobe scan
-3. Obsidian [^](https://github.com/rohanbatrain/Developement-Setup/blob/main/One-plus-8t/Applications/Proprietary-Softwares/Productivity.md#obsidian)
-4. Titanium Backup
-
-
-
-
----
-
-## Obsidian Mobile
-
-### Plugins
-
-1. Dataview
-2. DB Folder
-3. 
-
-### Appearance 
-
-Theme: Blue Topaz
+2. Tutanota Mail
+3. Adobe scan
+4. Obsidian 
+5. Titanium Backup
+6. Meta Business Suite
+7. Hubspot Marketing
