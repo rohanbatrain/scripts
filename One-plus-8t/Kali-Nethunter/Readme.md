@@ -6,3 +6,4 @@
 
 https://forum.xda-developers.com/t/rom-unofficial-nethunter-oneplus-8t-android-11-12-26-08-21.4324555/
 
+> I flashed kernel before rom :) Ahh bricked!!
