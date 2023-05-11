@@ -29,3 +29,4 @@ i donno lost track of time. its about 12 in night. turns out i have no bootloade
 
 > FInally got into qualcom emergency download edl mode 
 
+![](https://github.com/rohanbatrain/Developement-Setup/blob/cb896dd56db1f7752251c9214132e3e229151443/Attachments/Screenshot%20(5).png)
