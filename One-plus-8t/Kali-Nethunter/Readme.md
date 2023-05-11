@@ -30,3 +30,12 @@ i donno lost track of time. its about 12 in night. turns out i have no bootloade
 > FInally got into qualcom emergency download edl mode 
 
 ![](https://github.com/rohanbatrain/Developement-Setup/blob/cb896dd56db1f7752251c9214132e3e229151443/Attachments/Screenshot%20(5).png)
+
+
+
+# Pleadge
+
+![image](https://github.com/rohanbatrain/Developement-Setup/assets/116573125/ce287bf2-2e5c-413f-b913-b342e5cabdfd)
+
+
+I pledge not to by any chance go and flash random zips from xda developers :) 
