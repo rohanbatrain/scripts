@@ -7,10 +7,6 @@
 3. Normal adb sideload command wasn't working, so selected the zip and installed, then formatted Data partition
 4. Rebooted 
 
-# Setup
-1. google sign in -> using my google youtube creator gmail account (@rohanbatrainn) to login
-2. 
-
 # Magisk 
 > Same as lineage, additional steps:
 
@@ -18,3 +14,13 @@
 2. enabled zygisk, added systemless hosts, enabled enforce deny list
 3. reboot
 4. Added Google play services, google play store to denylist, successfully passed [Safety-Net](https://github.com/RikkaW/YASNAC).
+
+
+# Setup
+1. Create 4 users 
+  1. Productivity ( Education, Finance, Obsidian, Business etc.)
+  2. Entertainment ( Games, Socials etc.) 
+  3. Harshdeep Singh ( Trusted Person Access ) 
+
+## Setting Productivity
+1. 
