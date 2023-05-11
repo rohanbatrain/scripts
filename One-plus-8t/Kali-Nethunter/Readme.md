@@ -21,3 +21,8 @@ replacing twrp for orangfox build for android 11 and then restoring our android 
 
 
 > Update 3 hrs literally, now downloading msn to us EDL to flash stock, hoping to :) I was wrong about soft bricking this time, no recovery just me and my bootloader, not even fastbootd is present :) SHIT!!! PANIC!!!
+
+
+# Update 
+
+i donno lost track of time. its about 12 in night. turns out i have no bootloader - PANIC EXTREME.
