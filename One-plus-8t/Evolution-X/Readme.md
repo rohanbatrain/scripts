@@ -28,7 +28,7 @@
 
 Why? I want symlinks on userspace, if i am right then i ccan get around the termux error of no permission while using ln -s.
 
--> It's risky, but i'll take a shot :(
+Well it didn't work.
 
 
 ## Setting Productivity
