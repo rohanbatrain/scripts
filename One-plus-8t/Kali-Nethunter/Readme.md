@@ -16,3 +16,8 @@ Finished with failures/
 Installing orange fox, for that installing evolutionx, for that booting into twrp and flashing from twrp.
 
 > Skip talking about success ratio i was lucky that i got into soft brick because its been over an hour to get into my Oxygen os. Never going to mess with android 11 again in my life. 
+
+replacing twrp for orangfox build for android 11 and then restoring our android 13 data, (hoping to)
+
+
+> Update 3 hrs literally, now downloading msn to us EDL to flash stock, hoping to :) I was wrong about soft bricking this time, no recovery just me and my bootloader, not even fastbootd is present :) SHIT!!! PANIC!!!
