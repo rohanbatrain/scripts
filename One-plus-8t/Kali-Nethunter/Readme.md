@@ -26,3 +26,6 @@ replacing twrp for orangfox build for android 11 and then restoring our android 
 # Update 
 
 i donno lost track of time. its about 12 in night. turns out i have no bootloader - PANIC EXTREME.
+
+> FInally got into qualcom emergency download edl mode 
+
