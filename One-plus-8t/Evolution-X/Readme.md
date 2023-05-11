@@ -17,7 +17,9 @@
 
 
 # Setup
-1. Create 4 users 
+
+> Creating 3 users
+
   1. Productivity ( Education, Finance, Obsidian, Business etc.)
   2. Entertainment ( Games, Socials etc.) 
   3. Harshdeep Singh ( Trusted Person Access ) 
