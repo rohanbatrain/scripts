@@ -24,5 +24,18 @@
   2. Entertainment ( Games, Socials etc.) 
   3. Harshdeep Singh ( Trusted Person Access ) 
 
+> Restarting (Taking a backup in orangefox, and trying to change f2fs to ext4 using orangefox)
+
+Why? I want symlinks on userspace, if i am right then i ccan get around the termux error of no permission while using ln -s.
+
+
 ## Setting Productivity
-1. 
+
+> Apps 
+
+1. Bitwarden
+2. Aegis Authenticator
+3. Obsidian
+4. GPay
+5. Tutanota
+
