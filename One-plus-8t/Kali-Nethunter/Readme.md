@@ -12,7 +12,7 @@ Restarted, still after doing everything with stock rom, we had no boot.
 
 Finished with failures/
 
-# Installing orange fox, for that installing evolutionx, for that booting into twrp and flashing from twrp.
+# Alternate own method, trying (success ratio 1:99) 
+Installing orange fox, for that installing evolutionx, for that booting into twrp and flashing from twrp.
 
-
-
+> Skip talking about success ratio i was lucky that i got into soft brick because its been over an hour to get into my Oxygen os. Never going to mess with android 11 again in my life. 
