@@ -12,3 +12,4 @@
 10. and finally flash zip of kali nethunter.
 11. You are done. 
 
+I've forgot to run systemrw-mod so removing magisk module and then sideloading that and then reinstalling the module. 
