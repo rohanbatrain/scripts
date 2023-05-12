@@ -2,34 +2,35 @@
 
 > In this section i am going to make a list of apps that are absolutely required for me on my android device. And then proceed to make a flashable zip file.
 
-1. Firefox arm
-2. F-Droid
-3. Anki-Droid
-4. Termux ( including all its 6 plugins)
-5. VLC
-6. Blackhole 
-7. Seal
-8. Tutanota email
-9. Aegis authenticator 
-10. Bitwarden
-11. Kde-Connect
-12. Amaze File Manager
-13. Acode-Text-Editor
-14. Github
-15. Aria2App
-16. Amazon
-17. Coursera
-18. Linkedin Learning
-19. Khan Academy
-20. Udemy
-21. Google Pay
-22. Airtel Thanks
-23. Digilocker
-24. Umang
-25. Hubspot Marketing
-26. Adobe scan
-27. Obsidian
-28. Titanium Backup
-29. Meta Business Suite
-30. Instagram, Facebook, Messenger, LinkedIn, Reddit, Twitter, Whatsapp, Telegram, DeviantArt, Pinterest
-31. Make (automation tool)
+1. Magisk
+2. Firefox arm
+3. F-Droid
+4. Anki-Droid
+5. Termux (including all its 6 plugins)
+6. VLC
+7. Blackhole 
+8. Seal
+9. Tutanota email
+10. Aegis authenticator 
+11. Bitwarden
+12. Kde-Connect
+13. Amaze File Manager
+14. Acode-Text-Editor
+15. Github
+16. Aria2App
+17. Amazon
+18. Coursera
+19. Linkedin Learning
+20. Khan Academy
+21. Udemy
+22. Google Pay
+23. Airtel Thanks
+24. Digilocker
+25. Umang
+26. Hubspot Marketing
+27. Adobe scan
+28. Obsidian
+29. Titanium Backup
+30. Meta Business Suite
+31. Instagram, Facebook, Messenger, LinkedIn, Reddit, Twitter, Whatsapp, Telegram, DeviantArt, Pinterest
+32. Make (automation tool)
