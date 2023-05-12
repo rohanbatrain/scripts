@@ -34,5 +34,5 @@
 30. Obsidian
 31. ~~Titanium Backup~~  Swift Backup
 32. Meta Business Suite
-33. Instagram, Facebook, Messenger, LinkedIn, Reddit, Twitter, Whatsapp, Telegram, DeviantArt, Pinterest, Art Station
+33. Instagram, Facebook, Messenger, LinkedIn, Reddit, Twitter, Whatsapp, Telegram, DeviantArt, Pinterest, Art Station, snapchat
 34. Make (automation tool)
