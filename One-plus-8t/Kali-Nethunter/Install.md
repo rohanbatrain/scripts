@@ -12,7 +12,7 @@
 10. and finally flash zip of kali nethunter.
 11. You are done. 
 
-I've forgot to run systemrw-mod so removing magisk module and then flashing orangefox to flash/sideloading that and then reinstalling the module. 
+I've forgot to run systemrw-mod so removing magisk module and then flashing [orangefox](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V16/OrangeFox-R12.1-OPKONA-V16.img) to flash/sideloading that and then reinstalling the module. 
 
 # Orangefox
 1. taking a full nandroid backup
