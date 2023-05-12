@@ -1,6 +1,6 @@
-# System apps
+# Applications
 
-> In this section i am going to make a list of apps that are absolutely required for me on my android device. And then proceed to make a flashable zip file.
+> In this section i am going to make a list of apps that are required for me on my android device. And then proceed to make a flashable zip file.
 
 1. Magisk
 2. Firefox arm
