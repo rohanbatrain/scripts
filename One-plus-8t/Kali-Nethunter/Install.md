@@ -22,4 +22,4 @@ I've forgot to run systemrw-mod so removing magisk module and then flashing [ora
 # Safety net
 1. prepared denylist - google play store and services and its framework have been blacklisted
 2. safetynet fix module being flashed
-3. 
+
