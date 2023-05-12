@@ -6,7 +6,7 @@
 2. Firefox arm
 3. F-Droid
 4. Anki-Droid
-5. Termux (including all its plugins: Termux, Termux-GUI, Termux-Float, Termux-Api, Termux-widget, Termux-Boot, Termux-Styling)
+5. Termux (including all its plugins: Termux, Termux-Float, Termux-Api, Termux-widget, Termux-Boot, Termux-Styling)
 6. VLC
 7. Blackhole 
 8. Seal
