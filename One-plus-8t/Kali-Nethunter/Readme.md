@@ -39,3 +39,7 @@ i donno lost track of time. its about 12 in night. turns out i have no bootloade
 
 
 I pledge not to by any chance go and flash random zips from xda developers :) 
+
+# Trying again (Curiosity kills)
+
+> we are installing Nameless os to flash this.
