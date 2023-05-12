@@ -43,3 +43,4 @@ I pledge not to by any chance go and flash random zips from xda developers :)
 # Trying again (Curiosity kills)
 
 > we are installing Nameless os to flash this.
+> Did installed it and now installed official source of nethunter. Hoping to boot :) 
