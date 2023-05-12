@@ -51,3 +51,10 @@ Note: Owner account would have denylist configured and for best working of safet
 4. Government
 5. Finance and E-Commerce
 6. Security
+
+## Entertainment
+
+> Applications to install in this user account are:
+
+1. Minecraft ( Yes, I've paid for it )
+2. 
