@@ -18,3 +18,8 @@ KB2003_11_F.13 - https://gauss-componentotacostmanua...22/11/18/83d837a54bd647c3
 # Custom recovery 
 
 1. [Orange-Fox](https://github.com/Wishmasterflo/device_oneplus_opkona/releases)
+
+
+## Obvious notes
+
+> What i know was not to flash android 12 rom with android 11 recovery etc. These seems obvious but when you are installing roms and recoveries, a lot of time it happens that you cross mix kernels recoveries and roms. In that case you might end up bricking your device like i did back in kali nethunter. I like to boot into recovery without flasing and then proceed.
