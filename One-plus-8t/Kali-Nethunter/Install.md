@@ -12,4 +12,9 @@
 10. and finally flash zip of kali nethunter.
 11. You are done. 
 
-I've forgot to run systemrw-mod so removing magisk module and then sideloading that and then reinstalling the module. 
+I've forgot to run systemrw-mod so removing magisk module and then flashing orangefox to flash/sideloading that and then reinstalling the module. 
+
+# Orangefox
+1. taking a full nandroid backup
+2. I mounted every partition and then ran systemrw
+3. Pray :) 
