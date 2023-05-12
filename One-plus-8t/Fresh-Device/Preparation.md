@@ -13,7 +13,7 @@ KB2003_11_F.13 - https://gauss-componentotacostmanua...22/11/18/83d837a54bd647c3
 
 > Booting into fastboot mode. Then `fastboot.exe oem unlock` if you are on windows.
 > Phone restarted and formatting
-> Flash custom recovery for android 13 
+> Boot custom recovery for android 13 and flash the rom using that. (This way the new rom recovery would be flashed, if the rom is android 12 or android 14 it will not conflict with the recovery, i've found ways to brick my device so this is probably the best idea.)
 
 # Custom recovery 
 
