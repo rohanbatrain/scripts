@@ -60,6 +60,7 @@ Note: Owner account would have denylist configured and for best working of safet
 2. Universal Safety Net Fix
 3. Kali nethunter for android dynamic
 4. Systemless hosts
+5. [Ad blocking Module](https://github.com/pantsufan/Magisk-Ad-Blocking-Module)
 
 > Magisk Deny List
 
