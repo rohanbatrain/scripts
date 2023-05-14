@@ -16,8 +16,8 @@ Note: Owner account would have denylist configured and for best working of safet
 1. Acode
 2. Adobe Scan
 3. Aegis 
-4. Airtel
-5. Amaze
+4. Airtel Thanks App
+5. Amaze File 
 6. Amaze Utils
 7. Amazon
 8. Anki Droid
@@ -32,15 +32,16 @@ Note: Owner account would have denylist configured and for best working of safet
 17. Khan Academy
 18. LinkedIn Learning
 19. mAadhar
-20. Make
-21. Obsidian
-22. Seal
-23. Swift
-24. Termux ( Boot, Float. Widget, API)
-25. Tutanota
-26. Udemy
-27. Umang
-28. VLC
+20. Digilocker
+21. Make
+22. Obsidian
+23. Seal
+24. Swift
+25. Termux ( Boot, Float. Widget, API)
+26. Tutanota
+27. Udemy
+28. Umang
+29. VLC
 
 
 > Further classification of above apps into folders.
@@ -52,9 +53,31 @@ Note: Owner account would have denylist configured and for best working of safet
 5. Finance and E-Commerce
 6. Security
 
+> Magisk Modules
+
+1. BCR Module ( auto call recording - Note: Quality is not good as it records from your microphone but yeah for evident purposes it's alright. )
+2. Universal Safety Net Fix
+3. Kali nethunter for android dynamic
+4. Systemless hosts
+
+> Magisk Deny List
+
+1. Google play store
+2. Google Play Services
+3. Digilocker
+4. Google services framework
+5. Gpay
+6. mAadhar
+7. UMANG
+
+
+
 ## Entertainment
 
 > Applications to install in this user account are:
 
 1. Minecraft ( Yes, I've paid for it )
-2. 
+2.  
+
+
+## 
