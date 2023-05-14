@@ -13,35 +13,36 @@ Note: Owner account would have denylist configured and for best working of safet
 
 > Applications to install in this user account are:
 
-1. Acode
-2. Adobe Scan
-3. Aegis 
-4. Airtel Thanks App
-5. Amaze File 
-6. Amaze Utils
-7. Amazon
-8. Anki Droid
-9. APk Extractor
-10. Aria2App
-11. Business suite by meta
-12. Coursera
-13. fdroid
-14. firefox
-15. gpay
-16. Husbpot
-17. Khan Academy
-18. LinkedIn Learning
-19. mAadhar
-20. Digilocker
-21. Make
-22. Obsidian
-23. Seal
-24. Swift
-25. Termux ( Boot, Float. Widget, API)
-26. Tutanota
-27. Udemy
-28. Umang
-29. VLC
+1. Olauncher clutter free
+2. Acode
+3. Adobe Scan
+4. Aegis 
+5. Airtel Thanks App
+6. Amaze File 
+7. Amaze Utils
+8. Amazon
+9. Anki Droid
+10. APk Extractor
+11. Aria2App
+12. Business suite by meta
+13. Coursera
+14. fdroid
+15. firefox
+16. gpay
+17. Husbpot
+18. Khan Academy
+19. LinkedIn Learning
+20. mAadhar
+21. Digilocker
+22. Make
+23. Obsidian
+24. Seal
+25. Swift
+26. Termux ( Boot, Float. Widget, API)
+27. Tutanota
+28. Udemy
+29. Umang
+30. VLC
 
 
 > Further classification of above apps into folders.
@@ -77,7 +78,12 @@ Note: Owner account would have denylist configured and for best working of safet
 > Applications to install in this user account are:
 
 1. Minecraft ( Yes, I've paid for it )
-2.  
+2.  TAPTAP store
+3.  BGMI 
+4.  Call of duty
+5.  Alto adventers
+6.  Alto Odysee
+7.  Forgotten Anne
 
 
 ## 
