@@ -7,7 +7,7 @@ Note: Owner account would have denylist configured and for best working of safet
 1. Productivity (owner)
 2. Entertainment
 3. Harshdeep (Trusted User)
-4. Keshav & Priyanshu ( Frequent Trusted Combine User )
+4. Keshav ( Trusted User )
 
 ## Productivity 
 
