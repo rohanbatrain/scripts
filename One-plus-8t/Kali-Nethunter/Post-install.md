@@ -90,4 +90,16 @@ Note: Owner account would have denylist configured and for best working of safet
 10. F1 Mobile Racing
 
 
-## 
+## Keshav
+
+> Applications
+
+1. Telegram
+2. Firefox
+
+
+> Email used 
+
+1. Gmail -> k****lo@gmail.com
+
+
