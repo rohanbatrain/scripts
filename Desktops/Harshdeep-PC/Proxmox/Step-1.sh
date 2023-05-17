@@ -18,9 +18,9 @@ adduser rohan
 
 usermod -aG sudo rohan
 
-cd /home/rohan
+cd /home/rohan/
 
-wget https://raw.githubusercontent.com/rohanbatrain/post-install-scripts/main/Proxmox/Step-2.sh
+https://raw.githubusercontent.com/rohanbatrain/Developement-Setup/main/Desktops/Harshdeep-PC/Proxmox/Step-2.sh
 
 chmod +x Step-2.sh
 
