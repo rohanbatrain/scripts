@@ -32,3 +32,10 @@ vmgenid: 58e7e07f-44b3-4c63-9433-e27d9b574c86
 ```
 
 
+## Windows specific documentation
+
+1. Softwares
+  1. Chrome
+  2. [Spice-Webdav](https://www.spice-space.org/download/windows/spice-webdavd/)
+2. ---  
+
