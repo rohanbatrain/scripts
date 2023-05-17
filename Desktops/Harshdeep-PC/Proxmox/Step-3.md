@@ -39,3 +39,13 @@ vmgenid: 58e7e07f-44b3-4c63-9433-e27d9b574c86
   2. [Spice-Webdav](https://www.spice-space.org/download/windows/spice-webdavd/)
 2. ---  
 
+
+### Windows specific 
+
+> VM Shutdown 
+
+1. Go to Control-Panel
+2. Click on Power options > Choose what buttons do
+3. Go to and toggle `When i press power button` to shutdown 
+4. Toggle `When i Sleep` do nothing
+5. Also, untick every checkbox followed by these options
