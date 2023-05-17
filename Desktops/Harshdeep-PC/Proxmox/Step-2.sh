@@ -43,4 +43,4 @@ cd ..
 
 rm .xinitrc
 
-wget https://raw.githubusercontent.com/rohanbatrain/dot-files/main/proxmox/.xinitrc
+https://raw.githubusercontent.com/rohanbatrain/Dot-Files/main/Dell-Latitude-E6420/Proxmox/.xinitrc
