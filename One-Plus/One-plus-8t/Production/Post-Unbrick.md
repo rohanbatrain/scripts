@@ -52,6 +52,6 @@ Flashing orangefox for android 11
 12. Luckily OTG worked, Copying nameless rom and flashing it from orangefox. Lets see!
 13. Flashing A/B zip to inactive slot B 
 14. Praying !!!
-15.  
-16. 
+15. Wipe caches and installed magisk 26.1 
+16. And finally Nameless-AOSP is installed.
 
