@@ -15,11 +15,11 @@ From [wiki](https://nameless.wiki/getting-started/install/for_8_9R)
  ```
  
  ```
- fastboot flash --disable-verity --disable-verification vbmeta vbmeta.img
+ fastboot flash vbmeta vbmeta.img
  ```
  
  ```
- fastboot flash --disable-verity --disable-verification vbmeta_system vbmeta_system.img
+ fastboot flash vbmeta_system vbmeta_system.img
  ```
  
 4. Reboot your phone to recovery mode, click "Install update" -> "ADB Sideload"
