@@ -29,7 +29,17 @@ Flashing orangefox for android 11
 3. Copying all the required files like: magisk, nameless-aosp in internal storage of device.
 4. Flash Nameless-AOSP zip (unmount vendor before flashing was checked)
 5. Reboot, Device in a brick state -> turns out downgrading Nameless From Oxygen-OS-13 is not compatible. ( FUTURE ME -> I think i was dumb, i forgot to flash vbmeta and stuff)
-6. Restarting
+6. Restarting, unlocking the bootloader
+7. Rebooted to bootloader
+8. Following nameless [wiki](https://nameless.wiki/getting-started/install/for_8_9R)
+9. Rebooting phone to recovery, sideloading adb doesn't work
+10. Flashing orangefox again 
+11. Unable to mount data, Switch slot A to B, go to manage partition and select Data and Format data, switch to other SLOT A (not able to copy files and sideload isn't working)
+12. Luckily OTG worked, Copying nameless rom and flashing it from orangefox. Lets see!
+13. Flashing A/B zip to inactive slot B 
+14. Praying !!!
+15.  
+16. 
 
 ## Unbricking Device again
 > MSM Legend
@@ -42,5 +52,8 @@ Flashing orangefox for android 11
 
 1. Wow i mentioned about android 12 not being perfect for unlocking the bootloader, yes the volume buttons are just dancing like hell.
 2. Downgrading to android 11 and then going to Nameless
+3. Downgrading failed, verification error
+4. Upgrading to android 13 now
+5. 
 
 
