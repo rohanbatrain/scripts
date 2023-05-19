@@ -29,10 +29,9 @@ From [wiki](https://nameless.wiki/getting-started/install/for_8_9R)
 adb sideload Nameless-AOSP_xxx.zip
 ```
 
-> adb sideload wasn't working, tried orangefox and yes, device is bricked
-
 6. Wait until your device shows Step 2/2 and back arrow appears. Click back arrow, then click "Factory reset" -> "Format data/factory reset" -> "Format data"
 
+> adb sideload wasn't working, tried orangefox and yes, device is bricked again
 
 
 
