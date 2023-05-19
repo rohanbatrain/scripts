@@ -18,5 +18,7 @@ Flashing orangefox for android 11
 2. I read somewhere that there are issues in some devices unlocking the bootloader, so it is recommended to unlock the bootloader first then perform the local upgrade, i'll attach the source later here.
 3. Downloads for [Android-12](https://oxygenos.oneplus.net/86_sign_KB2001_11_C_OTA_1350_all_a5deec_00011011.zip) (2.4 GB) OR  [Android-13](https://gauss-componentotacostmanual-sg.allawnofs.com/remove-e8db6ccbcf328d52b602fa5897ddb266/component-ota/22/11/15/471125f26d1447f19aa900c5ba2ee42d.zip) (4.4 GB)
 4. Android 13 Updated 
-  
-5. 
+  ![](https://github.com/rohanbatrain/Developement-Setup/blob/main/Attachments/One-Plus-8T/Stock-Android/19-05-2023/Android-13-Oct-2022-Version.jpg?raw=true)
+5. Booting Orangefox recovery 
+6. Alternate way to flash orangefox is used this time, we booted orangefox from fastboot, then copied the same image and flashed from orangefox itself, Checked the box to flash on both slots and now we are running [OrangeFox-R12.1-OPKONA-V18.img](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V18/OrangeFox-R12.1-OPKONA-V18.img) On android 13.
+7. 
