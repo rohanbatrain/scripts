@@ -60,7 +60,9 @@ Note: Owner account would have denylist configured and for best working of safet
 2. Universal Safety Net Fix
 3. Kali nethunter for android dynamic
 4. Systemless hosts
-5. [Ad blocking Module](https://github.com/pantsufan/Magisk-Ad-Blocking-Module)
+5. [Ad blocking Module](https://github.com/pantsufan/Magisk-Ad-Blocking-Module) # Not working right now
+6. Magisk-Hide-Propconfig - for safety net fix
+
 
 > Magisk Deny List
 
@@ -88,18 +90,5 @@ Note: Owner account would have denylist configured and for best working of safet
 8.  Steam Link
 9.  Moonlight
 10. F1 Mobile Racing
-
-
-## Keshav
-
-> Applications
-
-1. Telegram
-2. Firefox
-
-
-> Email used 
-
-1. Gmail -> k****lo@gmail.com
 
 
