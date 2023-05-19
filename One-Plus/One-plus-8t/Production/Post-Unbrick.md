@@ -21,4 +21,15 @@ Flashing orangefox for android 11
   ![](https://github.com/rohanbatrain/Developement-Setup/blob/main/Attachments/One-Plus-8T/Stock-Android/19-05-2023/Android-13-Oct-2022-Version.jpg?raw=true)
 5. Booting Orangefox recovery 
 6. Alternate way to flash orangefox is used this time, we booted orangefox from fastboot, then copied the same image and flashed from orangefox itself, Checked the box to flash on both slots and now we are running [OrangeFox-R12.1-OPKONA-V18.img](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V18/OrangeFox-R12.1-OPKONA-V18.img) On android 13.
+
+
+## Flashing Nameless 
+1. Getting zip from here [Nameless-AOSP_kebab-12.1-20220823-2345-Official](https://sourceforge.net/projects/nameless-aosp/files/kebab/Nameless-AOSP_kebab-12.1-20220823-2345-Official.zip/download)
+2. This time we are not doing dirty flashing and following steps with patience.
+3. Copying all the required files like: magisk, nameless-aosp in internal storage of device.
+4. Flash Nameless-AOSP zip (unmount vendor before flashing was checked)
+5. Reboot, Device in a brick state -> turns out downgrading Nameless is not compatible.
+6. 
 7. 
+
+
