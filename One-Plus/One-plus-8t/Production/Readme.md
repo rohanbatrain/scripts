@@ -25,6 +25,9 @@ From [wiki](https://nameless.wiki/getting-started/install/for_8_9R)
 4. Reboot your phone to recovery mode, click "Install update" -> "ADB Sideload"
 5. In cmd enter command: 
 
+> Some dumb things, i flashed orangefox recovery after this and yes Bricked :) 
+Trying to flash Nameless recovery from [here](https://sourceforge.net/projects/nameless-aosp/files/kebab/imgs_12.1/recovery.img/download)x
+
 ```
 adb sideload Nameless-AOSP_xxx.zip
 ```
