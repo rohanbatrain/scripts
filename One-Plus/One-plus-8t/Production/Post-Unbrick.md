@@ -23,6 +23,20 @@ Flashing orangefox for android 11
 6. Alternate way to flash orangefox is used this time, we booted orangefox from fastboot, then copied the same image and flashed from orangefox itself, Checked the box to flash on both slots and now we are running [OrangeFox-R12.1-OPKONA-V18.img](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V18/OrangeFox-R12.1-OPKONA-V18.img) On android 13.
 
 
+## Unbricking Device again
+> MSM Legend
+
+1. All unbricking steps are already laid out. 
+2. Following those steps again
+
+## Upgrading to Android 12 
+> This time android 12 from the link above.
+
+1. Wow i mentioned about android 12 not being perfect for unlocking the bootloader, yes the volume buttons are just dancing like hell.
+2. Downgrading to android 11 and then going to Nameless
+3. Downgrading failed, verification error
+4. Upgrading to android 13 now
+
 ## Flashing Nameless 
 1. Getting zip from here [Nameless-AOSP_kebab-12.1-20220823-2345-Official](https://sourceforge.net/projects/nameless-aosp/files/kebab/Nameless-AOSP_kebab-12.1-20220823-2345-Official.zip/download)
 2. This time we are not doing dirty flashing and following steps with patience.
@@ -40,20 +54,4 @@ Flashing orangefox for android 11
 14. Praying !!!
 15.  
 16. 
-
-## Unbricking Device again
-> MSM Legend
-
-1. All unbricking steps are already laid out. 
-2. Following those steps again
-
-## Upgrading to Android 12 
-> This time android 12 from the link above.
-
-1. Wow i mentioned about android 12 not being perfect for unlocking the bootloader, yes the volume buttons are just dancing like hell.
-2. Downgrading to android 11 and then going to Nameless
-3. Downgrading failed, verification error
-4. Upgrading to android 13 now
-5. 
-
 
