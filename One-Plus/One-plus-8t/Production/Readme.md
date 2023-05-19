@@ -25,35 +25,16 @@ From [wiki](https://nameless.wiki/getting-started/install/for_8_9R)
 4. Reboot your phone to recovery mode, click "Install update" -> "ADB Sideload"
 5. In cmd enter command: 
 
-> Some dumb things, i flashed orangefox recovery after this and yes Bricked :) 
-Trying to flash Nameless recovery from [here](https://sourceforge.net/projects/nameless-aosp/files/kebab/imgs_12.1/recovery.img/download)x
-
 ```
 adb sideload Nameless-AOSP_xxx.zip
 ```
+
+> adb sideload wasn't working, tried orangefox and yes, device is bricked
 
 6. Wait until your device shows Step 2/2 and back arrow appears. Click back arrow, then click "Factory reset" -> "Format data/factory reset" -> "Format data"
 
 
 
-## KALI NETHUNTER
-
-Steps from the [documentation](https://forum.xda-developers.com/t/rom-unofficial-nethunter-oneplus-8t-android-11-12-26-08-21.4324555/)
-
-```
-
-    Copy twrp, magisk, NetHunter kernel & NetHunter zip to external USB-C drive​
-    Flash TWRP​
-    Reboot into recovery, format data & reboot back to recovery​
-    Install Magisk​
-    Reboot to system, finish Android setup, launch Magisk app & apply post install requirements​
-    Install NetHunter zip through Magisk​
-    Flash NetHunter kernel using kernel manager or twrp recovery​
-    Reboot to system & run NetHunter app​
-    Update NetHunter app from NetHunter Store​
-
-
-```
 
 
 
