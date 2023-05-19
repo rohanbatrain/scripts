@@ -16,6 +16,6 @@ Flashing orangefox for android 11
 ## Restart
 1. This time downloading android 13 firmware from official Oneplus site and upgrading it from local install. 
 2. I read somewhere that there are issues in some devices unlocking the bootloader, so it is recommended to unlock the bootloader first then perform the local upgrade, i'll attach the source later here.
-3. Downloads for [Android-12](https://oxygenos.oneplus.net/86_sign_KB2001_11_C_OTA_1350_all_a5deec_00011011.zip)  [Android-13](https://gauss-componentotacostmanual-sg.allawnofs.com/remove-e8db6ccbcf328d52b602fa5897ddb266/component-ota/22/11/15/471125f26d1447f19aa900c5ba2ee42d.zip)
+3. Downloads for [Android-12](https://oxygenos.oneplus.net/86_sign_KB2001_11_C_OTA_1350_all_a5deec_00011011.zip) OR  [Android-13](https://gauss-componentotacostmanual-sg.allawnofs.com/remove-e8db6ccbcf328d52b602fa5897ddb266/component-ota/22/11/15/471125f26d1447f19aa900c5ba2ee42d.zip)
 4. 
 5. 
