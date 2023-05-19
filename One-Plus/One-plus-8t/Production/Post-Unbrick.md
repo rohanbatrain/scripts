@@ -28,8 +28,16 @@ Flashing orangefox for android 11
 2. This time we are not doing dirty flashing and following steps with patience.
 3. Copying all the required files like: magisk, nameless-aosp in internal storage of device.
 4. Flash Nameless-AOSP zip (unmount vendor before flashing was checked)
-5. Reboot, Device in a brick state -> turns out downgrading Nameless is not compatible.
-6. 
-7. 
+5. Reboot, Device in a brick state -> turns out downgrading Nameless From Oxygen-OS-13 is not compatible.
+6. Restarting
+
+## Unbricking Device again
+> MSM Legend
+
+1. All unbricking steps are already laid out. 
+2. Following those steps again
+
+## Upgrading to Android 12 
+> This time android 12 from hte link above.
 
 
