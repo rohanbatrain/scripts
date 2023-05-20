@@ -1,6 +1,6 @@
 # Preparing
 
-> In production we are using NAMELESS OS 12.1 with kali nethunter 
+> In production we are using NAMELESS OS 12.1 non rooted. 
 
 ## NAMELESS OS
 
@@ -32,6 +32,9 @@ adb sideload Nameless-AOSP_xxx.zip
 6. Wait until your device shows Step 2/2 and back arrow appears. Click back arrow, then click "Factory reset" -> "Format data/factory reset" -> "Format data"
 
 > adb sideload wasn't working, tried orangefox and yes, device is bricked again
+
+
+Follow unbrick for later instructions.
 
 
 
