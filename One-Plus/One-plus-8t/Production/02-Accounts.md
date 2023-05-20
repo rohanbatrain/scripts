@@ -4,7 +4,8 @@ This account is specifically for professional growth. Be it Business tools, cont
 
 ## AppList
 
-1. 
+1. Tutanota
+2. Bitwarden 
 
 # Education
 
