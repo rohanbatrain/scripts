@@ -6,6 +6,9 @@ This account is specifically for professional growth. Be it Business tools, cont
 
 1. Tutanota
 2. Bitwarden 
+3. Telegram
+4. Keep Notes
+5. Photos by google (unlimited storage)
 
 # Education
 
