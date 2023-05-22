@@ -9,6 +9,7 @@ This account is specifically for professional growth. Be it Business tools, cont
 3. Telegram
 4. Keep Notes
 5. Photos by google (unlimited storage)
+6. Adobe Scan
 
 # Education
 
