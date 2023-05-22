@@ -26,6 +26,7 @@ Games and other OTT stuff goes here
 2. Telegram (All Accounts)
 3. BGMI 
 4. PUBG MOBILE + 1.1.1.1 By Cloudflare
+5. Photos ( for gameplay upload )
 
 # Finance and Govt
 
