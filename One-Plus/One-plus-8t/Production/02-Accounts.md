@@ -23,9 +23,13 @@ Games and other OTT stuff goes here
 
 1. Tap Tap
 2. Telegram (All Accounts)
+3. BGMI 
+4. PUBG MOBILE + 1.1.1.1 By Cloudflare
 
 # Finance and Govt
 
 I am no root this time so this account would hold all finance and government needs
 
 ## App List
+
+
