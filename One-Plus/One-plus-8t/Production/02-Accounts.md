@@ -10,6 +10,9 @@ This account is specifically for professional growth. Be it Business tools, cont
 4. Keep Notes
 5. Photos by google (unlimited storage)
 6. Adobe Scan
+7. F-droid
+8. Aegis Authenticator
+9. 
 
 # Education
 
