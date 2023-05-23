@@ -13,6 +13,7 @@ This account is specifically for professional growth. Be it Business tools, cont
 5. Photos by google (unlimited storage)
 6. Adobe Scan
 7. Obsidian
+8. Github 
 
 
 > Using Browser
@@ -23,6 +24,7 @@ This account is specifically for professional growth. Be it Business tools, cont
 
 1. Aegis Authenticator
 2. Termux
+3. Amaze File manager
 
 
 # Education
