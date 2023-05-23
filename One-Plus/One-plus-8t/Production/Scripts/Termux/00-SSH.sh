@@ -9,5 +9,9 @@ else
     termux-setup-storage
 fi
 
-read -p "Please paste the URL of the directory containing the zip of both the keys. Please include / at the end: " SSH_KEYS_URL
+echo "Please copy the SSH keys to your '/sdcard/Secrets' Directory"
+
+mkdir ~/.ssh
+cp /sdcard/Secrets/* ~/.ssh/
 apt update && apt upgrade
+sshd
