@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd ~/.ssh/
+git config --global user.name "Rohan Batra"
+git config --global user.email "116573125+rohanbatrain@users.noreply.github.com"
+git config --global gpg.format ssh
+git config --global commit.gpgsign true
+ssh -T git@github.com
