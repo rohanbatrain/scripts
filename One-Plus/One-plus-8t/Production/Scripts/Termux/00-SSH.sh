@@ -9,8 +9,9 @@ else
     termux-setup-storage
 fi
 
-echo "Please copy the SSH keys to your '/sdcard/Secrets' Directory"
+echo "Please copy the id_rsa and id_rsa.pub keys to your '/sdcard/Secrets' Directory, by connecting to your android ftp server"
 
+pkg install openssh
 mkdir ~/.ssh
 cp /sdcard/Secrets/* ~/.ssh/
 apt update && apt upgrade
