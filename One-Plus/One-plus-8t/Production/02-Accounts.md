@@ -44,6 +44,9 @@ Games and other OTT stuff goes here
 1. Telegram (All Accounts)
 2. Photos ( for gameplay upload )
 3. 1.1.1.1 By Cloudflare
+4. instagram (Rohanbatrarb)
+5. Bitwarden
+6. 
 
 
 > From Tap Tap
