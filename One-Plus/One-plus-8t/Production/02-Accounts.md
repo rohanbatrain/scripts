@@ -4,15 +4,25 @@ This account is specifically for professional growth. Be it Business tools, cont
 
 ## AppList
 
+> Google Play Store
+
 1. Tutanota
 2. Bitwarden 
 3. Telegram
 4. Keep Notes
 5. Photos by google (unlimited storage)
 6. Adobe Scan
-7. F-droid
-8. Aegis Authenticator
-9. 
+
+
+> Using Browser
+
+1. F-Droid 
+
+> F-Droid
+
+1. Aegis Authenticator
+2. 
+
 
 # Education
 
