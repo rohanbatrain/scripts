@@ -22,7 +22,7 @@ This account is specifically for professional growth. Be it Business tools, cont
 > F-Droid
 
 1. Aegis Authenticator
-2. 
+2. Termux
 
 
 # Education
@@ -36,11 +36,19 @@ Games and other OTT stuff goes here
 
 ## App List
 
+> Using Browser
 1. Tap Tap
-2. Telegram (All Accounts)
-3. BGMI 
-4. PUBG MOBILE + 1.1.1.1 By Cloudflare
-5. Photos ( for gameplay upload )
+
+
+> Using Play store
+1. Telegram (All Accounts)
+2. Photos ( for gameplay upload )
+3. 1.1.1.1 By Cloudflare
+
+
+> From Tap Tap
+1. BGMI 
+2. PUBG MOBILE
 
 # Finance and Govt
 
