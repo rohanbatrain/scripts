@@ -16,9 +16,11 @@ This account is specifically for professional growth. Be it Business tools, cont
 8. Github 
 
 
+
 > Using Browser
 
 1. F-Droid 
+2. DSU sideloader (Github repo) 
 
 > F-Droid
 
