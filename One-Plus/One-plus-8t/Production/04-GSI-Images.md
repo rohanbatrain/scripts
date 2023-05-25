@@ -9,3 +9,9 @@ We are testing a new realm of no flashing fun, i am tired of bricking my device 
 3. DSU update is in progress
 4. Rebooting
 
+Havoc didn't work 
+
+## Crdroid V9 
+
+It worked, the roms that are listed on dsu sideloader repository they tend to work.
+
