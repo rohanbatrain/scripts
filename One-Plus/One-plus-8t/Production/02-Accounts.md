@@ -77,5 +77,6 @@ I am no root this time so this account would hold all finance and government nee
 9. Umang
 10. Amazon
 11. Cred
+12. mAadhar
 
 
