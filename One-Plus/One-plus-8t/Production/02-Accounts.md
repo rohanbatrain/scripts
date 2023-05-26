@@ -75,5 +75,7 @@ I am no root this time so this account would hold all finance and government nee
 7. Paytm
 8. Phonepe
 9. Umang
+10. Amazon
+11. Cred
 
 
