@@ -15,6 +15,7 @@ This account is specifically for professional growth. Be it Business tools, cont
 7. Obsidian
 8. Github 
 9. Remini
+10. Audio relay
 
 
 
@@ -28,6 +29,7 @@ This account is specifically for professional growth. Be it Business tools, cont
 1. Aegis Authenticator
 2. Termux
 3. Amaze File manager
+4. Amaze utilities
 
 
 # Education
