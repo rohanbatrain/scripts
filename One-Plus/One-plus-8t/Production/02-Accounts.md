@@ -66,4 +66,14 @@ I am no root this time so this account would hold all finance and government nee
 
 ## App List
 
+1. BHIM
+2. Bitwarden
+3. Digilocker
+4. Github
+5. Gpay
+6. Paypal
+7. Paytm
+8. Phonepe
+9. Umang
+
 
