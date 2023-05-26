@@ -14,6 +14,7 @@ This account is specifically for professional growth. Be it Business tools, cont
 6. Adobe Scan
 7. Obsidian
 8. Github 
+9. Remini
 
 
 
