@@ -43,7 +43,11 @@ On windows:
 2. Fill in the required details
 ![image](https://github.com/rohanbatrain/Developement-Setup/assets/116573125/2fbff1e5-aed2-4c91-8135-011edea19518)
 
-I can access putty but no sshfs
+
+## Fixed
+
+1. Mapping a network drive with this command fixed it `\\sshfs\u0_a393@192.168.1.5!8022`
+
 
 
 
