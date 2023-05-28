@@ -11,7 +11,7 @@ fi
 
 echo "Please copy the id_rsa and id_rsa.pub keys to your '/sdcard/Secrets' Directory, by connecting to your android ftp server"
 
-pkg install openssh
+pkg install openssh iproute2 openssh-sftp-server
 mkdir ~/.ssh
 cp /sdcard/Secrets/* ~/.ssh/
 apt update && apt upgrade
