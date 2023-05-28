@@ -50,4 +50,4 @@ On windows:
 
 ## Further issues
 
-Symlinks doesn't work ![#9](https://github.com/winfsp/sshfs-win/issues/9), workaround, for my use case i can just clone my second-brain-private repo to home directory and then git push from here and git pull in the obsidian symlink on my mobile. This is tedious, but currently this is the only option, I hate windows. 
+Symlinks doesn't work ![#9](https://github.com/winfsp/sshfs-win/issues/9), workaround, for my use case i can just clone my second-brain-private repo to home directory and then git push from here and git pull in the obsidian symlink on my mobile. This is tedious, but currently this is the only option, I hate windows. Also as a reminder cloning using ` git clone --recurse-submodules git@github.com:rohanbatrain/Second-Brain-Private.git`  
