@@ -15,4 +15,6 @@ pkg install openssh iproute2 openssh-sftp-server
 mkdir ~/.ssh
 cp /sdcard/Secrets/* ~/.ssh/
 apt update && apt upgrade
+echo "Please choose a password for your account"
+passwd
 sshd
