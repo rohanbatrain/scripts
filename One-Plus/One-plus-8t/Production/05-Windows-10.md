@@ -43,7 +43,7 @@ On windows:
 2. Fill in the required details
 ![image](https://github.com/rohanbatrain/Developement-Setup/assets/116573125/2fbff1e5-aed2-4c91-8135-011edea19518)
 
-I can access putty but no ssh
+I can access putty but no sshfs
 
 
 
