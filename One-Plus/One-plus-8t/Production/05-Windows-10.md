@@ -48,8 +48,6 @@ On windows:
 
 1. Mapping a network drive with this command fixed it `\\sshfs\u0_a393@192.168.1.5!8022`
 
+## Further issues
 
-
-
-
-
+Symlinks doesn't work ![#9](https://github.com/winfsp/sshfs-win/issues/9)
