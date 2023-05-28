@@ -15,3 +15,6 @@ Havoc didn't work
 
 It worked, the roms that are listed on dsu sideloader repository they tend to work.
 
+## What next
+
+Probably thinking about what workflow we can use GSI on. Till then Adios Amigos!!!
