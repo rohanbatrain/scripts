@@ -36,8 +36,12 @@ On windows:
 1. Amaze wasn't able to sync dot folders
 2. Termux SFTP server should be used (windows file explorer doesn't support sftp) GREAT!!!
 3. Trying ![WinFsp](https://github.com/winfsp/winfsp) + ![SSHFS-WIN](https://github.com/winfsp/sshfs-win)
-4.  
 
+> Steps for 3rd 
+1. Map a network drive
+![image](https://github.com/rohanbatrain/Developement-Setup/assets/116573125/e610248b-5548-4115-9605-edb05b8ec912)
+2. Fill in the required details
+![image](https://github.com/rohanbatrain/Developement-Setup/assets/116573125/2fbff1e5-aed2-4c91-8135-011edea19518)
 
 
 
