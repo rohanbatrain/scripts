@@ -34,7 +34,8 @@ On windows:
 ## Issues
 
 1. Amaze wasn't able to sync dot folders
-2. Termux SFTP server should be used
+2. Termux SFTP server should be used (windows file explorer doesn't support sftp) GREAT!!!
+3.  
 
 
 
