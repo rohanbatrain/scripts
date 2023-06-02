@@ -16,6 +16,10 @@ This account is specifically for professional growth. Be it Business tools, cont
 8. Github 
 9. Remini
 10. Audio relay
+11. KDE-Connect
+12. Whatsapp Business
+13. Whatsapp Messenger
+14. Hubspot CRM
 
 
 
@@ -53,7 +57,7 @@ Games and other OTT stuff goes here
 3. 1.1.1.1 By Cloudflare
 4. instagram (Rohanbatrarb)
 5. Bitwarden
-6. 
+6. Kde-Connect
 
 
 > From Tap Tap
