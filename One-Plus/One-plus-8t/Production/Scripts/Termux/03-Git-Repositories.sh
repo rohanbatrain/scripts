@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# storing Github repos in sdcard to let Android apps access it and then symlinking it to termux home for convenience.
 cd /data/data/com.termux/files/home
 mkdir -p /storage/emulated/0/Github/Repositories/
 ln -s /storage/emulated/0/Github ./
