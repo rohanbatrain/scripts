@@ -11,6 +11,8 @@ cd ..
 mkdir -p /storage/emulated/0/Obsidian/Second-Brain-Private/
 
 mkdir Obsidian
-ln -s /storage/emulated/0/Obsidian/Second-Brain-Private/ /data/data/com.termux/files/home/Obsidian/
 
-git clone --recurse-submodules git@github.com:rohanbatrain/Second-Brain-Private.git /data/data/com.termux/files/home/Github/Repositories/Second-Brain-Private/
+
+git clone --recurse-submodules git@github.com:rohanbatrain/Second-Brain-Private.git /storage/emulated/0/Obsidian/
+
+ln -s /storage/emulated/0/Obsidian/Second-Brain-Private/ /data/data/com.termux/files/home/Obsidian/
