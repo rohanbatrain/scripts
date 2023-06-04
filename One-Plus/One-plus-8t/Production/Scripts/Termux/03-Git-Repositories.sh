@@ -18,3 +18,9 @@ mkdir Obsidian
 git clone --recurse-submodules git@github.com:rohanbatrain/Second-Brain-Private.git /storage/emulated/0/Obsidian/Second-Brain-Private/
 
 ln -s /storage/emulated/0/Obsidian/Second-Brain-Private/ /data/data/com.termux/files/home/Obsidian/
+
+
+
+cd Github/Repositories/
+git clone git@github.com:rohanbatrain/Second-Brain-Tools-2022.git
+cd ~
