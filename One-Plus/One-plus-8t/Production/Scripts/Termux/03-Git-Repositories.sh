@@ -5,7 +5,7 @@ ln -s /storage/emulated/0/Github ./
 
 cd Github
 
-git clone --recurse-submodules git@github.com:rohanbatrain/Dot-Files.git /data/data/com.termux/files/home/Github/Repositories/Dot-Files/
+git clone --recurse-submodules git@github.com:rohanbatrain/Dot-Files.git /data/data/com.termux/files/home/Github/Repositories/
 
 cd ..
 mkdir -p /storage/emulated/0/Obsidian/Second-Brain-Private/
