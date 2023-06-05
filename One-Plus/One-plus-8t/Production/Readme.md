@@ -37,6 +37,10 @@ adb sideload Nameless-AOSP_xxx.zip
 Follow unbrick for later instructions.
 
 
+---
+
+Downloading and trying to update to Android 13 from local update let's see.
+
 
 
 
