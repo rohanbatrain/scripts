@@ -19,7 +19,8 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 ## Pacman packages
 
 1. firefox
-2.
+2. python-pip
+3. vscodium
 
 
 ## Application specific
@@ -27,6 +28,13 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 ### Firefox
 
 1. firefox login 
+
+## Python using
+
+1. setting up an environment for knowledge base repository
+2. git clone the repo
+3. 
+
 
 
 ## Github
