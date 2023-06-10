@@ -9,5 +9,19 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 
 # Post installation
 
+## Initials
+
 1. system update
 2. 
+
+## Pacman packages
+
+1. firefox
+2.
+
+
+## Application specific
+
+### Firefox
+
+1. firefox login 
