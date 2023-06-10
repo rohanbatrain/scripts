@@ -20,7 +20,13 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 
 1. firefox
 2. python-pip
-3. vscodium
+3. yay
+
+## Yay bins
+
+> fetching packages on /tmp folder, if yay failed to install and need to do manual intervention.
+
+1. vscodium-bin (1-3 choice) 
 
 
 ## Application specific
