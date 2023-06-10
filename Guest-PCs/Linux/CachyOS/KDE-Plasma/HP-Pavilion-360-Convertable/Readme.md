@@ -7,3 +7,7 @@ Downloading the iso, turns out that windows have some kind of weirdiness that I'
 I attached an external SSD with USB to sata connector and installed CachyOS with ext4 partition on it.
 
 
+# Post installation
+
+1. system update
+2. 
