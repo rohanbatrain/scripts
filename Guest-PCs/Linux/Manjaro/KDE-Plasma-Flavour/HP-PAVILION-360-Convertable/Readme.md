@@ -20,6 +20,10 @@ Starting Show Plymouth Boot Screen
 
 same as 2nd
 
-leaving it as is and let's see how much time it takes to boot into manjaro.
+leaving it as is and let's see how much time it takes to boot into manjaro. didn't work after an hour
+
+> changing bios to fallback to add legacy support 
+
+tried Rufus flashing instead of ventoy but it didn't work
 
 
