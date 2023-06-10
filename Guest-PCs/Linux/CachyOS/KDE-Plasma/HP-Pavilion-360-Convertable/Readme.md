@@ -12,7 +12,7 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 ## Initials
 
 1. system update
-2. 
+2. home directory folders : Github/
 
 ## Pacman packages
 
@@ -25,3 +25,5 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 ### Firefox
 
 1. firefox login 
+
+
