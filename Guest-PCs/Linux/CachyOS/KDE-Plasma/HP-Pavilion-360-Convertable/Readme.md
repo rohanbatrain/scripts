@@ -27,3 +27,8 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 1. firefox login 
 
 
+## Github
+
+1. setting ssh keys
+
+I was getting errors of 644 permission so I have made my ssh directory to be 777 and id_rsa to be 600. and now Github is authenticated (same termux steps were followed)
