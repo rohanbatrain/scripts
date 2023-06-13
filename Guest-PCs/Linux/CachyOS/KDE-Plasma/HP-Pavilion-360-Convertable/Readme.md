@@ -12,7 +12,7 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 ## Initials
 
 1. system update
-2. home directory folders : Github/
+2. home directory folders : Github/ , Builds/
 
 > Fetching Knoweldge base repo to install mkdocs locally.
 
