@@ -21,6 +21,7 @@ I attached an external SSD with USB to sata connector and installed CachyOS with
 1. firefox
 2. python-pip
 3. yay
+4. veracrypt
 
 ## Yay bins
 
