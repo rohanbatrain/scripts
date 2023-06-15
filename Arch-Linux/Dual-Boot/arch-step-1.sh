@@ -10,7 +10,7 @@ echo "Partition-1 31G SWAP"
 
 echo "Partition-2 100G ARCH ROOT"
 
-echo "Partition-3 100G MANJARO (ALL FILES IN ONE PART)"
+echo "Partition-3 100G Secondary OS (ALL FILES IN ONE PART)"
 
 echo "Partition-4 700G HOME DIRECTORY"
 
@@ -40,7 +40,7 @@ swap_partition="${drive_name}1"
 
 root_partition="${drive_name}2"
 
-manjaro_partition="${drive_name}3"
+second_os_partition="${drive_name}3"
 
 home_partition="${drive_name}4"
 
@@ -56,7 +56,7 @@ swapon "${swap_partition}"
 
 mkfs.ext4 "${root_partition}"
 
-mkfs.ext4 "${manjaro_partition}"
+mkfs.ext4 "${second_os_partition}"
 
 mkfs.ext4 "${home_partition}"
 
