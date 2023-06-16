@@ -1,7 +1,7 @@
 # Prerequisities : copy your ssh keys on ~/.ssh/
 
 cd ~
-mkdir "Github" "Builds"
+mkdir "Github" "Builds" "Applications"
 sudo pacman -Syyu firefox python-pip yay veracrypt
 yay vscodium-bin
 cd ~/.ssh/
