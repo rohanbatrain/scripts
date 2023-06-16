@@ -1,5 +1,6 @@
-# Prerequisities : copy your ssh keys on ~/.ssh/
+#!/bin/bash
 
+# Prerequisities : copy your ssh keys on ~/.ssh/
 cd ~
 mkdir "Github" "Builds" "Applications"
 sudo pacman -Syyu firefox python-pip yay veracrypt
