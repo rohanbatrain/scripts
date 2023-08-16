@@ -45,4 +45,4 @@ rm .xinitrc
 
 wget https://raw.githubusercontent.com/rohanbatrain/dotfiles/main/Proxmox/.xinitrc
 
-reboot
+systemctl reboot
