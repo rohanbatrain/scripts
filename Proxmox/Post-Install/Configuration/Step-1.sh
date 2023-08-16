@@ -6,11 +6,12 @@ apt update
 
 # Fetching aptitude packages
 
-apt install sudo git make vim gcc libx11-dev libxft-dev libxinerama-dev xorg firefox-esr pulseaudio pavucontrol
+apt install iwd sudo git make vim gcc libx11-dev libxft-dev libxinerama-dev xorg firefox-esr pulseaudio pavucontrol
 
 # trying audio
 
-systemctl --user enable pulseaudio.service
+systemctl enable pulseaudio.service
+systemctl enable iwd 
 
 # Making a new user
 
