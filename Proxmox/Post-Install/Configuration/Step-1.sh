@@ -20,7 +20,7 @@ usermod -aG sudo rohan
 
 cd /home/rohan/
 
-https://raw.githubusercontent.com/rohanbatrain/Developement-Setup/main/Desktops/Harshdeep-PC/Proxmox/Step-2.sh
+wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-2.sh
 
 chmod +x Step-2.sh
 
