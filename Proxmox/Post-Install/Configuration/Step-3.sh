@@ -38,12 +38,15 @@ rm .xinitrc
 wget https://raw.githubusercontent.com/rohanbatrain/dotfiles/main/Proxmox/.xinitrc
 
 
-# Fetching app images
+# Appimages 
+
+## Fetching app images
 cd ~ 
 mkdir Applications
 cd Applications
 
-## Obsidian
+### Obsidian
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.3.7/Obsidian-1.3.7.AppImage
 
-## 
+## Making all executable at once
+chmod +x *.AppImage
