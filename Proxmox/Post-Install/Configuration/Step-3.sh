@@ -7,7 +7,7 @@ read -p "Have you copied the id_rsa and id_rsa.pub keys to your '~/.ssh' Directo
 if [ "$SSH_CONFIRMATION" == "Y" ]; then
     echo "Thank you for the confirmation, ssh keys already configured!"
 else
-    break
+    exit
 fi
 
 cd ~/.ssh/
