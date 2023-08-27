@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Cloning all the git repositories under ~/Projects/ Directory.
-
+# Setiing up ssh 
 read -p "Have you copied the id_rsa and id_rsa.pub keys to your '~/.ssh' Directory? Y/N: " SSH_CONFIRMATION
 
 if [ "$SSH_CONFIRMATION" == "Y" ]; then
@@ -20,6 +19,7 @@ git config --global user.signingkey ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 
 
+# Flow control
 read -p "Are you installing on a Dual/Multi boot environment? Y/N: " SINGLE_BOOT_CONFIRMATION
 if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
     echo "Alright, We are now loading configs for that specific use case."
