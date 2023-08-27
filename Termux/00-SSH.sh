@@ -9,7 +9,13 @@ else
     termux-setup-storage
 fi
 
-echo "Please copy the id_rsa and id_rsa.pub keys to your '/sdcard/Secrets' Directory, by connecting to your android ftp server"
+read -p "Have you copied the id_rsa and id_rsa.pub keys to your '/sdcard/Secrets' Directory, by connecting to your android ftp server? Y/N " SSH_CONFIRMATION
+
+if [ "$SSH_CONFIRMATION" == "Y" ]; then
+    echo "Thank you for the confirmation, ssh keys already configured!"
+else
+    break
+fi
 
 pkg install openssh iproute2 openssh-sftp-server
 mkdir ~/.ssh
