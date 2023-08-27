@@ -6,7 +6,14 @@ apt update
 
 # Fetching aptitude packages
 
-apt install iwd sudo git make vim gcc libx11-dev libxft-dev libxinerama-dev xorg firefox-esr pulseaudio pavucontrol
+apt install iwd sudo git make vim gcc libx11-dev libxft-dev libxinerama-dev xorg firefox-esr pulseaudio pavucontrol curl
+
+## Brave special config
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt update
+sudo apt install brave-browser
+
 
 # trying audio
 
