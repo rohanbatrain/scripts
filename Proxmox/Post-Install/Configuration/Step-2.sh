@@ -40,9 +40,11 @@ cd ../../
 cd ..
 
 # Fetching proxmox dot files
-
 rm .xinitrc
-
 wget https://raw.githubusercontent.com/rohanbatrain/dotfiles/main/Proxmox/.xinitrc
 
-systemctl reboot
+# Over to the next step
+wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-3.sh
+chmod +x Step-3.sh
+rm /home/rohan/Step-2.sh
+bash Step-3.sh
