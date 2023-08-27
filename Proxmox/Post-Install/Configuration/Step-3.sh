@@ -11,6 +11,7 @@ else
 fi
 
 cd ~/.ssh/
+chmod 400 id_rsa
 git config --global user.name "Rohan Batra"
 git config --global user.email "116573125+rohanbatrain@users.noreply.github.com"
 git config --global gpg.format ssh
