@@ -28,7 +28,9 @@ if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
     bash Step-3.sh
     # Step-3
 else
-    echo "Are you installing on a Dual/Multi boot environment? Y/N: "
+    echo "Alright, We are now loading configs for that specific use case."
+    # We are using Manjaro as our secondary choice of operating system.
+    # We are going to use manjaro config as it is from the Scripts folder.
     wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-4.sh
     chmod +x Step-4.sh
     bash Step-4.sh
