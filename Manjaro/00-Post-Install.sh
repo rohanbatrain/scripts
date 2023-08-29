@@ -12,3 +12,12 @@ git config --global gpg.format ssh
 git config --global commit.gpgsign true
 git config --global user.signingkey ~/.ssh/id_rsa.pub
 ssh -T git@github.com
+
+## Packages 
+sudo pacman -Syyu base-devel
+
+### AUR
+cd ~/Builds
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
