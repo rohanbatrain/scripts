@@ -14,7 +14,8 @@ git config --global user.signingkey ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 
 ## Packages 
-sudo pacman -Syyu base-devel glibc lib32-glibc 
+sudo pacman -Syyu base-devel glibc lib32-glibc rustup 
+rustup default stable
 
 ### AUR
 cd ~/Builds
