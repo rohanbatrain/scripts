@@ -21,3 +21,4 @@ cd ~/Builds
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
+### Please choose rustup, rust (default=1) is broken as of now, at time of writing. 
