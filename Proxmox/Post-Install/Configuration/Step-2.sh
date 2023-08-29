@@ -20,7 +20,7 @@ ssh -T git@github.com
 
 
 # Flow control
-read -p "Are you installing on a Dual/Multi boot environment? Y/N: " SINGLE_BOOT_CONFIRMATION
+read -p "Are you installing on a Single boot environment? Y/N: " SINGLE_BOOT_CONFIRMATION
 if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
     echo "Alright, We are now loading configs for that specific use case."
     wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-3.sh
@@ -28,8 +28,7 @@ if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
     bash Step-3.sh
     # Step-3
 else
-    echo "We are loading configs for installing proxmox as an secondary operating system on a dedicated drive"
-    # Step-4
+    echo "Are you installing on a Dual/Multi boot environment? Y/N: "
     wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-4.sh
     chmod +x Step-4.sh
     bash Step-4.sh
