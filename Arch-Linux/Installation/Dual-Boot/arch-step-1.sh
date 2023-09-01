@@ -70,13 +70,13 @@ mount "${root_partition}" /mnt/arch
 
 sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 5/g' /etc/pacman.conf
 
-yes | pacman -Syy reflector rsync curl wget
+pacman -Syy --noconfirm reflector rsync curl wget
 
 reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # Installing arch
 
-yes | pacstrap /mnt/arch base linux linux-firmware vim
+pacstrap --noconfirm /mnt/arch base linux linux-firmware vim
 
 genfstab -U /mnt/arch >> /mnt/arch/etc/fstab
 
