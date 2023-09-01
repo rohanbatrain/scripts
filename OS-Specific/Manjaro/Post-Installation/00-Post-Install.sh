@@ -30,3 +30,6 @@ makepkg -si
 
 ### Paru packages
 paru anki vscodium
+
+## System Settings
+export VISUAL=vim 
