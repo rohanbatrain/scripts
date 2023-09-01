@@ -13,6 +13,9 @@ git config --global commit.gpgsign true
 git config --global user.signingkey ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 
+## Repo sync
+sudo pacman-mirrors --country India,Singapore  && sudo pacman -Syu
+
 ## Packages 
 sudo pacman -Syyu base-devel glibc lib32-glibc rustup 
 rustup default stable
