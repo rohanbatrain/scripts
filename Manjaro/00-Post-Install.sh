@@ -29,4 +29,4 @@ makepkg -si
 
 
 ### Paru packages
-paru anki
+paru anki vscodium
