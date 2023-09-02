@@ -28,7 +28,7 @@ usermod -aG sudo rohan
 
 cd /home/rohan/
 
-wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-2.sh
+wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Proxmox/Post-Installation/Configuration/Step-2.sh
 
 chmod +x Step-2.sh
 
