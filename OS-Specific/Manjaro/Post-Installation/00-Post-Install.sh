@@ -33,3 +33,4 @@ paru anki vscodium
 
 ## System Settings
 export VISUAL=vim 
+git config --global core.editor nano
