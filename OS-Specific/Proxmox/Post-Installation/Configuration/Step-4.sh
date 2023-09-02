@@ -6,5 +6,5 @@ sudo mount /dev/nvme0n1p4 /mnt/manjaro/
 # Now please note the /home/rohan directory on proxmox should be empty.
 cd /home/rohan
 ## Symlinking most used directories
-for i in Applications  Builds  Desktop  Documents  Downloads  Music  Pictures  Projects  Public  Scripts  Templates  Videos  ; do ln -sf /mnt/manjaro/home/rohan/$i . ; done
+for i in Applications  Builds  Desktop  Documents  Downloads  Music  Pictures Public  Templates  Videos  ; do ln -sf /mnt/manjaro/home/rohan/$i . ; done
 
