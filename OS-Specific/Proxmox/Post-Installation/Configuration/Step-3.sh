@@ -8,17 +8,17 @@ bash Repo-Clone.sh
 ## DWM
 cd suckless-dwm/V6.4/
 sudo make clean install
-cd ../
+cd ../../
 
 ## DMENU
 cd suckless-dmenu/V5.2/
 sudo make clean install
-cd ../
+cd ../../
 
 ## ST
 cd suckless-st/V0.9/
 sudo make clean install
-cd ../
+cd ../../
 
 
 # Getting out of build directory
