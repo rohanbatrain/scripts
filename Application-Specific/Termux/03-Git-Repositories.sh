@@ -7,8 +7,8 @@ ln -s /storage/emulated/0/Git-Repositories ./
 cd Git-Repositories/Github/Repositories
 
 # cloning repositories
-git clone --recurse-submodules git@github.com:rohanbatrain/Dot-Files.git 
-git clone --recurse-submodules git@github.com:rohanbatrain/Second-Brain-Private.git 
+git clone git@github.com:rohanbatrain/Dot-Files.git 
+# git clone --recurse-submodules git@github.com:rohanbatrain/Second-Brain-Private.git 
 git clone git@github.com:rohanbatrain/Second-Brain-Tools-2022.git
 
 cd ~
