@@ -8,13 +8,8 @@ mkdir /mnt/rohan/git-repos # All dot files should linked using symlinks from thi
 
 cd /mnt/rohan/git-repos
 
-git clone https://github.com/rohanbatrain/dot-files.git
-
-git clone https://github.com/rohanbatrain/suckless-dwm.git
-
-git clone https://github.com/rohanbatrain/suckless-dmenu.git
-
-git clone https://github.com/rohanbatrain/suckless-st.git
+wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Application-Specific/Github/Repo-Clone.sh
+bash Repo-Clone.sh
 
 # compiling
 
