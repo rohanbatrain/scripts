@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-cd home/rohan/Projects/ 
+cd home/rohan/Projects/Public/
 wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Application-Specific/Github/Repo-Clone.sh
 bash Repo-Clone.sh
 
