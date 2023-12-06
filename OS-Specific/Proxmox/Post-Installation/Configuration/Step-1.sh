@@ -6,7 +6,7 @@ apt update && apt upgrade
 
 # Fetching aptitude packages
 
-apt install iwd sudo git make vim gcc libx11-dev libxft-dev libxinerama-dev xorg firefox-esr pulseaudio pavucontrol curl
+apt install iwd sudo git make vim gcc libx11-dev libxft-dev libxinerama-dev xorg firefox-esr pulseaudio pavucontrol curl obs-studio
 
 ## Brave special config
 curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
