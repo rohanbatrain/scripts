@@ -1,0 +1,2 @@
+# booting manjaro and running this command in proxmox mountpoint:    /run/media/rohan/{ENCRYPTED-SERIAL}/{root of proxmox}/home/rohan
+rm Applications Builds Desktop Documents Downloads Music Pictures Public Templates Videos ; mkdir Applications Builds Desktop Documents Downloads Music Pictures Public Templates Videos ; # this will remove all manjaro depended symlinks and create native folders in proxmmox.
