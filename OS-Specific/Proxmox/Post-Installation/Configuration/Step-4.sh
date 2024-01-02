@@ -6,6 +6,13 @@ sudo mount /dev/nvme0n1p4 /mnt/manjaro/
 sudo echo "/dev/nvme0n1p4 /mnt/manjaro ext4 defaults 0 1" >> /etc/fstab
 # Now please note the /home/rohan directory on proxmox should be empty.
 cd /home/rohan
-## Symlinking most used directories
+
+:'
+# Symlinking most used directories
 for i in Applications  Builds  Desktop  Documents  Downloads  Music  Pictures Public  Templates  Videos  ; do ln -sf /mnt/manjaro/home/rohan/$i . ; done
+'
+
+# The code above has been commented out because of the Garuda migration. Currently, Proxmox will support native directories.
+mkdir Applications Builds Desktop Documents Downloads Music Pictures Public Templates Videos
+
 
