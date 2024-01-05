@@ -2,36 +2,29 @@
 
 read -p "Which method do you want to use to clone the GitHub repos? ssh/https: " gh_choice
 
-if [ "$gh_choice" == "https" ]; then
-  git clone https://github.com/rohanbatrain/rohanbatrain.git
-  git clone https://github.com/rohanbatrain/educational-projects.git
-  git clone https://github.com/rohanbatrain/kruxers-landing-page.git
-  git clone https://github.com/rohanbatrain/scripts.git
-  git clone https://github.com/rohanbatrain/knowledge-base.git
-  git clone https://github.com/rohanbatrain/second-brain-api.git
-  git clone https://github.com/rohanbatrain/dotfiles.git
-  git clone https://github.com/rohanbatrain/second-brain-template.git
-  git clone https://github.com/rohanbatrain/productivity-suite.git
-  git clone https://github.com/rohanbatrain/landing-page.git
-  git clone https://github.com/rohanbatrain/suckless-st.git
-  git clone https://github.com/rohanbatrain/suckless-dwm.git
-  git clone https://github.com/rohanbatrain/suckless-dmenu.git
+declare -A repos=(
+  ["https"]="rohanbatrain/rohanbatrain.git rohanbatrain/educational-projects.git rohanbatrain/kruxers-landing-page.git rohanbatrain/scripts.git rohanbatrain/knowledge-base.git rohanbatrain/second-brain-api.git rohanbatrain/dotfiles.git rohanbatrain/second-brain-template.git rohanbatrain/productivity-suite.git rohanbatrain/landing-page.git rohanbatrain/suckless-st.git rohanbatrain/suckless-dwm.git rohanbatrain/suckless-dmenu.git"
+  ["ssh"]="rohanbatrain/rohanbatrain.git rohanbatrain/educational-projects.git rohanbatrain/kruxers-landing-page.git rohanbatrain/scripts.git rohanbatrain/knowledge-base.git rohanbatrain/second-brain-api.git rohanbatrain/dotfiles.git rohanbatrain/second-brain-template.git rohanbatrain/productivity-suite.git rohanbatrain/landing-page.git rohanbatrain/suckless-st.git rohanbatrain/suckless-dwm.git rohanbatrain/suckless-dmenu.git"
+)
 
-elif [ "$gh_choice" == "ssh" ]; then
-  git clone git@github.com:rohanbatrain/rohanbatrain.git
-  git clone git@github.com:rohanbatrain/educational-projects.git
-  git clone git@github.com:rohanbatrain/kruxers-landing-page.git
-  git clone git@github.com:rohanbatrain/scripts.git
-  git clone git@github.com:rohanbatrain/knowledge-base.git
-  git clone git@github.com:rohanbatrain/second-brain-api.git
-  git clone git@github.com:rohanbatrain/dotfiles.git
-  git clone git@github.com:rohanbatrain/second-brain-template.git
-  git clone git@github.com:rohanbatrain/productivity-suite.git
-  git clone git@github.com:rohanbatrain/landing-page.git
-  git clone git@github.com:rohanbatrain/suckless-st.git
-  git clone git@github.com:rohanbatrain/suckless-dwm.git
-  git clone git@github.com:rohanbatrain/suckless-dmenu.git
+clone_repo() {
+  repo_url=$1
+  git clone "$repo_url" &
+}
 
-else
+if [ -z "${repos[$gh_choice]}" ]; then
   echo "Unknown user input, ungraceful exit"
+  exit 1
 fi
+
+repos_to_clone=(${repos[$gh_choice]})
+
+# Clone repositories in parallel
+for repo in "${repos_to_clone[@]}"; do
+  clone_repo "https://github.com/$repo"   # Append "https://github.com/" for https URLs
+done
+
+# Wait for all background processes to finish
+wait
+
+echo "All repositories cloned successfully."
