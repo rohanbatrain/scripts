@@ -7,3 +7,7 @@ sudo pacman-key-populate chaotic
 ## Updating the system
 
 garuda-update
+
+## Packages 
+
+sudo pacman -S brave-bin 
