@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pacman -S obsidian obs-studio vscodium
+sudo pacman -S obsidian obs-studio vscodium 
