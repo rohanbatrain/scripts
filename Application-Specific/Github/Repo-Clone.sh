@@ -1,30 +1,45 @@
 #!/bin/bash
 
+github_username="rohanbatrain"
+
 read -p "Which method do you want to use to clone the GitHub repos? ssh/https: " gh_choice
 
-declare -A repos=(
-  ["https"]="rohanbatrain/rohanbatrain.git rohanbatrain/educational-projects.git rohanbatrain/kruxers-landing-page.git rohanbatrain/scripts.git rohanbatrain/knowledge-base.git rohanbatrain/second-brain-api.git rohanbatrain/dotfiles.git rohanbatrain/second-brain-template.git rohanbatrain/productivity-suite.git rohanbatrain/landing-page.git rohanbatrain/suckless-st.git rohanbatrain/suckless-dwm.git rohanbatrain/suckless-dmenu.git"
-  ["ssh"]="rohanbatrain/rohanbatrain.git rohanbatrain/educational-projects.git rohanbatrain/kruxers-landing-page.git rohanbatrain/scripts.git rohanbatrain/knowledge-base.git rohanbatrain/second-brain-api.git rohanbatrain/dotfiles.git rohanbatrain/second-brain-template.git rohanbatrain/productivity-suite.git rohanbatrain/landing-page.git rohanbatrain/suckless-st.git rohanbatrain/suckless-dwm.git rohanbatrain/suckless-dmenu.git"
-)
-
-clone_repo() {
-  repo_url=$1
-  git clone "$repo_url" &
+# Function to fetch user's public repositories using GitHub API
+get_repos() {
+  local username=$1
+  curl -s "https://api.github.com/users/$username/repos?per_page=1000" | jq -r '.[].ssh_url'
 }
 
-if [ -z "${repos[$gh_choice]}" ]; then
+# Fetch user's repositories
+repos_urls=($(get_repos "$github_username"))
+
+# Clone repositories based on the user's choice
+clone_repo() {
+  repo_url=$1
+  repo_name=$(basename "$repo_url" .git)
+  if [ ! -d "$repo_name" ]; then
+    git clone "$repo_url" "$repo_name" &
+  else
+    echo "Directory $repo_name already exists. Skipping clone for $repo_url."
+  fi
+}
+
+# Check if the user chose a valid option
+if [ "$gh_choice" != "https" ] && [ "$gh_choice" != "ssh" ]; then
   echo "Unknown user input, ungraceful exit"
   exit 1
 fi
 
-repos_to_clone=(${repos[$gh_choice]})
-
-# Clone repositories in parallel
-for repo in "${repos_to_clone[@]}"; do
-  clone_repo "https://github.com/$repo"   # Append "https://github.com/" for https URLs
+# Clone all repositories
+for repo_url in "${repos_urls[@]}"; do
+  if [ "$gh_choice" == "ssh" ]; then
+    clone_repo "$repo_url"
+  else
+    clone_repo "https://github.com/$repo_url"
+  fi
 done
 
 # Wait for all background processes to finish
 wait
 
-echo "All repositories cloned successfully."
+echo "Cloning process completed."
