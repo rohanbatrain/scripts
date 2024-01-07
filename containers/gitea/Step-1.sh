@@ -36,8 +36,8 @@ cp gitea /usr/local/bin/gitea
 
 
 # Run Gitea as Linux service
-wget https://raw.githubusercontent.com/go-gitea/gitea/release/v1.21/contrib/systemd/gitea.service -O /etc/systemd/system/gitea.service
-systemctl enable gitea
-systemctl enable gitea --now
+##wget https://raw.githubusercontent.com/go-gitea/gitea/release/v1.21/contrib/systemd/gitea.service -O /etc/systemd/system/gitea.service
+##systemctl enable gitea
+##systemctl enable gitea --now
 
 # Running another script with git user 
