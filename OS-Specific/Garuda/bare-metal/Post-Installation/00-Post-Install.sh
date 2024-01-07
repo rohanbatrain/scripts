@@ -20,4 +20,4 @@ fi
 garuda-update
 
 # Install additional packages
-sudo pacman -S brave-bin droidcam obs-studio vlc 
+sudo pacman -S brave-bin droidcam obs-studio vlc obsidian
