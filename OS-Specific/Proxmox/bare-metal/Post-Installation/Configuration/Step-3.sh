@@ -26,7 +26,7 @@ cd /home/rohan/
 
 # Fetching proxmox dot files
 rm .xinitrc
-wget https://raw.githubusercontent.com/rohanbatrain/dotfiles/main/Proxmox/.xinitrc
+wget https://raw.githubusercontent.com/rohanbatrain/dotfiles/main/proxmox/.xinitrc
 
 
 # Appimages 
