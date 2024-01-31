@@ -21,3 +21,7 @@ garuda-update
 
 # Install additional packages
 sudo pacman -S brave-bin droidcam obs-studio vlc obsidian firefox
+
+# Configuring Git
+https://raw.githubusercontent.com/rohanbatrain/scripts/main/Application-Specific/Git/initial-setup.sh
+bash initial-setup.sh
