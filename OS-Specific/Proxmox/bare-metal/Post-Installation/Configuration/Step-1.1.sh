@@ -45,4 +45,9 @@ if [ ! -f /home/rohan/Step-1.2.sh ]; then
 fi
 
 chmod +x /home/rohan/Step-1.2.sh
-su rohan -c "bash /home/rohan/Step-1.2.sh"
+
+# not using the command below, because it is invoking a terminal is required to enter password error
+
+##su rohan -c "bash /home/rohan/Step-1.2.sh"
+
+# Manually login and execute 1.2
