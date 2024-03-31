@@ -3,6 +3,7 @@
 
 
 # Cloning repositories from GitHub
+mkdir -p /home/rohan/Projects/Public/
 cd /home/rohan/Projects/Public/ || exit 1
 wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Application-Specific/Github/Repo-Clone.sh
 if [ $? -ne 0 ]; then
