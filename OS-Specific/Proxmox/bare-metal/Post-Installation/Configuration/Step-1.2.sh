@@ -1,27 +1,39 @@
 #!/bin/bash
 
-# Setiing up ssh 
+# Setting up ssh 
 read -p "Have you copied the id_rsa and id_rsa.pub keys to your '~/.ssh' Directory? Y/N: " SSH_CONFIRMATION
+SSH_CONFIRMATION=${SSH_CONFIRMATION^^} # Convert to uppercase
 
 if [ "$SSH_CONFIRMATION" == "Y" ]; then
     echo "Thank you for the confirmation, ssh keys already configured!"
 else
-    exit
+    echo "Please copy the SSH keys to your '~/.ssh' directory before proceeding."
+    exit 1
 fi
 
-cd ~/.ssh/
+cd ~/.ssh/ || exit 1
 chmod 400 id_rsa
+if [ $? -ne 0 ]; then
+    echo "Failed to set permissions for id_rsa."
+    exit 1
+fi
+
 git config --global user.name "Rohan Batra"
 git config --global user.email "116573125+rohanbatrain@users.noreply.github.com"
 git config --global gpg.format ssh
 git config --global commit.gpgsign true
 git config --global user.signingkey ~/.ssh/id_rsa.pub
 ssh -T git@github.com
-
-
+if [ $? -ne 0 ]; then
+    echo "SSH connection to GitHub failed. Please check your SSH keys and configuration."
+    exit 1
+else
+    echo "SSH connection to GitHub successful!"
+fi
 
 # Flow control
 read -p "Are you installing on a Single boot environment? Y/N: " SINGLE_BOOT_CONFIRMATION
+SINGLE_BOOT_CONFIRMATION=${SINGLE_BOOT_CONFIRMATION^^} # Convert to uppercase
 
 if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
     echo "Which desktop environment do you want to install?"
@@ -33,11 +45,13 @@ if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
     case $choice in
         1)
             echo "Alright, We are now loading configs for that specific use case."
-            wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-1.3.sh
+            wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-1.3.sh -O Step-1.3.sh
             chmod +x Step-1.3.sh
             bash Step-1.3.sh
             ;;
         2)
+            echo "Alright, We are now loading configs for that specific use case."
+            wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-2.1.sh -O Step-2.1.sh
             chmod +x Step-2.1.sh
             ./Step-2.1.sh
             ;;
@@ -52,13 +66,13 @@ else
     if [ "$SECONDARY_OS" == "A" ]; then
         # We are using Manjaro as our secondary choice of operating system.
         # We are going to use Manjaro config as it is from the Scripts folder.
-        wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-1.4A.sh
+        wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-1.4A.sh -O Step-1.4A.sh
         chmod +x Step-1.4A.sh
         bash Step-1.4A.sh
     elif [ "$SECONDARY_OS" == "B" ]; then
         # We are using Garuda as our secondary choice of operating system.
         # We are going to use Garuda config as it is from the Scripts folder.
-        wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-1.4B.sh
+        wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/Proxmox/Post-Install/Configuration/Step-1.4B.sh -O Step-1.4B.sh
         chmod +x Step-1.4B.sh
         bash Step-1.4B.sh
     else
