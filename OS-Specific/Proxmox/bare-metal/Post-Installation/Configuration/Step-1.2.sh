@@ -42,7 +42,7 @@ if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
     case $choice in
         1)
             echo "Alright, We are now loading configs for that specific use case."
-            wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-specific/Proxmox/bare-metal/Post-installation/Configuration/Step-1.3.sh -O Step-1.3.sh
+            wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Proxmox/bare-metal/Post-installation/Configuration/Step-1.3.sh -O Step-1.3.sh
             chmod +x Step-1.3.sh
             bash Step-1.3.sh
             ;;
