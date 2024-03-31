@@ -36,3 +36,9 @@ if [ $? -ne 0 ]; then
     echo "Failed to make AppImages executable."
     exit 1
 fi
+
+
+
+# Step 2.3
+
+echo "Now execute Step 2.3 with root user"
