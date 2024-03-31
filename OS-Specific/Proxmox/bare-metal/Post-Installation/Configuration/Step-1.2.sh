@@ -50,7 +50,7 @@ if [ "$SINGLE_BOOT_CONFIRMATION" == "Y" ]; then
             echo "Alright, We are now loading configs for that specific use case."
             curl -o Step-2.1.sh https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Proxmox/bare-metal/Post-Installation/Configuration/Step-2.1.sh
             chmod +x Step-2.1.sh
-            ./Step-2.1.sh
+            su -c "bash /home/Rohan/Step-2.1.sh"
             ;;
         *)
             echo "Invalid choice. Please enter 1 or 2."
