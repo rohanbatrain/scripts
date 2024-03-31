@@ -34,6 +34,7 @@ systemctl enable iwd
 # Making a new user
 
 adduser rohan
+passwd rohan
 
 usermod -aG sudo rohan
 
