@@ -40,8 +40,9 @@ usermod -aG sudo rohan
 
 cd /home/rohan/
 
-wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Proxmox/bare-metal/Post-Installation/Configuration/Step-1.2.sh
+if [ ! -f /home/rohan/Step-1.2.sh ]; then
+    wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Proxmox/bare-metal/Post-Installation/Configuration/Step-1.2.sh -P /home/rohan/
+fi
 
-chmod +x Step-1.2.sh
-
+chmod +x /home/rohan/Step-1.2.sh
 su rohan -c "bash /home/rohan/Step-1.2.sh"
