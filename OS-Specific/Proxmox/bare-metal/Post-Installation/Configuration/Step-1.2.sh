@@ -12,7 +12,7 @@ else
 fi
 
 cd ~/.ssh/ || exit 1
-chmod 400 id_rsa
+sudo chmod 400 id_rsa
 if [ $? -ne 0 ]; then
     echo "Failed to set permissions for id_rsa."
     exit 1
