@@ -26,12 +26,7 @@ git config --global gpg.format ssh
 git config --global commit.gpgsign true
 git config --global user.signingkey ~/.ssh/id_rsa.pub
 ssh -T git@github.com
-if [ $? -ne 0 ]; then
-    echo "SSH connection to GitHub failed. Please check your SSH keys and configuration."
-    exit 1
-else
-    echo "SSH connection to GitHub successful!"
-fi
+
 
 # Flow control
 read -p "Are you installing on a Single boot environment? Y/N: " SINGLE_BOOT_CONFIRMATION
