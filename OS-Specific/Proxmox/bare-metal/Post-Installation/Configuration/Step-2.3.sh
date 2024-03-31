@@ -23,9 +23,9 @@ exit
 #
 
 tee << EOF > /etc/dnsmasq.conf
-domain=pv.local
+domain=sitar-pve.rohanbatra.in
 interface=vmbr0
-dhcp-range=10.0.0.2,10.0.0.250,24h
+dhcp-range=10.0.0.50,10.0.0.250,24h
 dhcp-option=vmbr0,3,10.0.0.1
 server=1.1.1.1
 server=8.8.8.8
