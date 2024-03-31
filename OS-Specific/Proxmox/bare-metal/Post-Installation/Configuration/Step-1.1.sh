@@ -28,7 +28,7 @@ apt install brave-browser
 
 # trying audio
 
-systemctl enable pulseaudio.service
+systemctl --user enable/start pulseaudio.service/
 systemctl enable iwd 
 
 # Making a new user
