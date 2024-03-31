@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Setting up ssh 
+
+mkdir .ssh
 read -p "Have you copied the id_rsa and id_rsa.pub keys to your '~/.ssh' Directory? Y/N: " SSH_CONFIRMATION
 SSH_CONFIRMATION=${SSH_CONFIRMATION^^} # Convert to uppercase
 
