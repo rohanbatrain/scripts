@@ -39,7 +39,7 @@ usermod -aG sudo rohan
 
 cd /home/rohan/
 
-wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Proxmox/Post-Installation/Configuration/Step-1.2.sh
+wget https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Proxmox/bare-metal/Post-Installation/Configuration/Step-1.2.sh
 
 chmod +x Step-1.2.sh
 
