@@ -41,4 +41,4 @@ fi
 
 # Step 2.3
 
-echo "Now execute Step 2.3 with root user"
+echo "Now execute Step 3.1 with root user"
