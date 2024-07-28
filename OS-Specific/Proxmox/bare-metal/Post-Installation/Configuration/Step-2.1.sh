@@ -7,10 +7,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-
-#!/bin/bash
-
-# Prompt user for confirmation
+# Prompt user for confirmation if wifi is required as main or not.
 read -p "Do you want to set up WiFi as the primary connection? (Y/N): " choice
 if [[ "$choice" =~ ^[Yy]$ ]]; then
     echo "Setting up WiFi as primary..."
